@@ -1,0 +1,1331 @@
+{
+  "rebalancings": [
+    {
+      "date": "2023-01-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 15395.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.15281,
+          "w_etf": 0.15281,
+          "capped": false,
+          "prix_rebal": 3800.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.125272,
+          "w_etf": 0.125272,
+          "capped": false,
+          "prix_rebal": 3180.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.093142,
+          "w_etf": 0.093142,
+          "capped": false,
+          "prix_rebal": 10400.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.073958,
+          "w_etf": 0.073958,
+          "capped": false,
+          "prix_rebal": 4995.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.070957,
+          "w_etf": 0.070957,
+          "capped": false,
+          "prix_rebal": 5670.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.069303,
+          "w_etf": 0.069303,
+          "capped": false,
+          "prix_rebal": 1900.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.064559,
+          "w_etf": 0.064559,
+          "capped": false,
+          "prix_rebal": 1990.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003804,
+          "w_brvm30": 0.001331
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.004933,
+          "w_brvm30": 0.001726
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.0,
+      "cost_bps": 0.0
+    },
+    {
+      "date": "2023-04-03",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 15785.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.134005,
+          "w_etf": 0.134005,
+          "capped": false,
+          "prix_rebal": 3300.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.117101,
+          "w_etf": 0.117101,
+          "capped": false,
+          "prix_rebal": 2825.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.101041,
+          "w_etf": 0.101041,
+          "capped": false,
+          "prix_rebal": 10945.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.079332,
+          "w_etf": 0.079332,
+          "capped": false,
+          "prix_rebal": 2110.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.076312,
+          "w_etf": 0.076312,
+          "capped": false,
+          "prix_rebal": 5000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.071981,
+          "w_etf": 0.071981,
+          "capped": false,
+          "prix_rebal": 5580.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.070227,
+          "w_etf": 0.070227,
+          "capped": false,
+          "prix_rebal": 2100.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003228,
+          "w_brvm30": 0.001167
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.004926,
+          "w_brvm30": 0.001781
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.035709,
+      "cost_bps": 0.4
+    },
+    {
+      "date": "2023-07-03",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 15400.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.124038,
+          "w_etf": 0.124038,
+          "capped": false,
+          "prix_rebal": 2700.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.121509,
+          "w_etf": 0.121509,
+          "capped": false,
+          "prix_rebal": 2700.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.105896,
+          "w_etf": 0.105896,
+          "capped": false,
+          "prix_rebal": 10350.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.090007,
+          "w_etf": 0.090007,
+          "capped": false,
+          "prix_rebal": 2160.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.077832,
+          "w_etf": 0.077832,
+          "capped": false,
+          "prix_rebal": 2100.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.068338,
+          "w_etf": 0.068338,
+          "capped": false,
+          "prix_rebal": 4780.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.053196,
+          "w_etf": 0.053196,
+          "capped": false,
+          "prix_rebal": 3145.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "BNBC",
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.009184,
+          "w_etf": 0.009184,
+          "capped": false,
+          "prix_rebal": 2095.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003506,
+          "w_brvm30": 0.001194
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 9,
+      "turnover": 0.039255,
+      "cost_bps": 0.4
+    },
+    {
+      "date": "2023-10-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 16300.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.14712,
+          "w_etf": 0.14712,
+          "capped": false,
+          "prix_rebal": 2800.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.108347,
+          "w_etf": 0.108347,
+          "capped": false,
+          "prix_rebal": 2105.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.103892,
+          "w_etf": 0.103892,
+          "capped": false,
+          "prix_rebal": 2180.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.088524,
+          "w_etf": 0.088524,
+          "capped": false,
+          "prix_rebal": 7565.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.087531,
+          "w_etf": 0.087531,
+          "capped": false,
+          "prix_rebal": 2065.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.060416,
+          "w_etf": 0.060416,
+          "capped": false,
+          "prix_rebal": 3695.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.054171,
+          "w_etf": 0.054171,
+          "capped": false,
+          "prix_rebal": 2800.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003229,
+          "w_brvm30": 0.001038
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.004857,
+          "w_brvm30": 0.001561
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.04764,
+      "cost_bps": 0.5
+    },
+    {
+      "date": "2024-01-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 17980.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.145802,
+          "w_etf": 0.145802,
+          "capped": false,
+          "prix_rebal": 2495.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.129952,
+          "w_etf": 0.129952,
+          "capped": false,
+          "prix_rebal": 2270.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.094351,
+          "w_etf": 0.094351,
+          "capped": false,
+          "prix_rebal": 1780.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.090973,
+          "w_etf": 0.090973,
+          "capped": false,
+          "prix_rebal": 6990.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.080144,
+          "w_etf": 0.080144,
+          "capped": false,
+          "prix_rebal": 1700.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.059287,
+          "w_etf": 0.059287,
+          "capped": false,
+          "prix_rebal": 3260.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.049491,
+          "w_etf": 0.049491,
+          "capped": false,
+          "prix_rebal": 2300.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003653,
+          "w_brvm30": 0.001201
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002689,
+          "w_brvm30": 0.000884
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.024055,
+      "cost_bps": 0.2
+    },
+    {
+      "date": "2024-04-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 17900.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.133128,
+          "w_etf": 0.133128,
+          "capped": false,
+          "prix_rebal": 2305.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.132659,
+          "w_etf": 0.132659,
+          "capped": false,
+          "prix_rebal": 2250.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.091912,
+          "w_etf": 0.091912,
+          "capped": false,
+          "prix_rebal": 7000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.090912,
+          "w_etf": 0.090912,
+          "capped": false,
+          "prix_rebal": 1700.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.078481,
+          "w_etf": 0.078481,
+          "capped": false,
+          "prix_rebal": 1650.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.069723,
+          "w_etf": 0.069723,
+          "capped": false,
+          "prix_rebal": 3800.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.053185,
+          "w_etf": 0.053185,
+          "capped": false,
+          "prix_rebal": 2450.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.0032,
+          "w_brvm30": 0.001028
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.003194,
+          "w_brvm30": 0.001026
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.018245,
+      "cost_bps": 0.2
+    },
+    {
+      "date": "2024-07-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 19205.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.151263,
+          "w_etf": 0.151263,
+          "capped": false,
+          "prix_rebal": 2785.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.108392,
+          "w_etf": 0.108392,
+          "capped": false,
+          "prix_rebal": 1955.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.106114,
+          "w_etf": 0.106114,
+          "capped": false,
+          "prix_rebal": 2110.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.089236,
+          "w_etf": 0.089236,
+          "capped": false,
+          "prix_rebal": 1995.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.076741,
+          "w_etf": 0.076741,
+          "capped": false,
+          "prix_rebal": 6215.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.062114,
+          "w_etf": 0.062114,
+          "capped": false,
+          "prix_rebal": 3600.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.056141,
+          "w_etf": 0.056141,
+          "capped": false,
+          "prix_rebal": 2750.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003689,
+          "w_brvm30": 0.001213
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002275,
+          "w_brvm30": 0.000748
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.047046,
+      "cost_bps": 0.5
+    },
+    {
+      "date": "2024-10-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 23200.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.134651,
+          "w_etf": 0.134651,
+          "capped": false,
+          "prix_rebal": 2485.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.120161,
+          "w_etf": 0.120161,
+          "capped": false,
+          "prix_rebal": 2395.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.099564,
+          "w_etf": 0.099564,
+          "capped": false,
+          "prix_rebal": 1800.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.098174,
+          "w_etf": 0.098174,
+          "capped": false,
+          "prix_rebal": 2200.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.070872,
+          "w_etf": 0.070872,
+          "capped": false,
+          "prix_rebal": 3480.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.067819,
+          "w_etf": 0.067819,
+          "capped": false,
+          "prix_rebal": 3940.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.05876,
+          "w_etf": 0.05876,
+          "capped": false,
+          "prix_rebal": 4770.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003157,
+          "w_brvm30": 0.001021
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002258,
+          "w_brvm30": 0.00073
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.043421,
+      "cost_bps": 0.4
+    },
+    {
+      "date": "2025-01-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 24000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.119638,
+          "w_etf": 0.119638,
+          "capped": false,
+          "prix_rebal": 2480.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.119313,
+          "w_etf": 0.119313,
+          "capped": false,
+          "prix_rebal": 2290.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.102114,
+          "w_etf": 0.102114,
+          "capped": false,
+          "prix_rebal": 1920.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.094395,
+          "w_etf": 0.094395,
+          "capped": false,
+          "prix_rebal": 2200.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.079312,
+          "w_etf": 0.079312,
+          "capped": false,
+          "prix_rebal": 4050.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.0763,
+          "w_etf": 0.0763,
+          "capped": false,
+          "prix_rebal": 4610.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.058927,
+          "w_etf": 0.058927,
+          "capped": false,
+          "prix_rebal": 4975.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.002934,
+          "w_brvm30": 0.000926
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002161,
+          "w_brvm30": 0.000682
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.019639,
+      "cost_bps": 0.2
+    },
+    {
+      "date": "2025-04-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 25200.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.142573,
+          "w_etf": 0.142573,
+          "capped": false,
+          "prix_rebal": 3465.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.122208,
+          "w_etf": 0.122208,
+          "capped": false,
+          "prix_rebal": 2750.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.094422,
+          "w_etf": 0.094422,
+          "capped": false,
+          "prix_rebal": 2580.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.078418,
+          "w_etf": 0.078418,
+          "capped": false,
+          "prix_rebal": 4695.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.076093,
+          "w_etf": 0.076093,
+          "capped": false,
+          "prix_rebal": 5390.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.072132,
+          "w_etf": 0.072132,
+          "capped": false,
+          "prix_rebal": 1590.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.064155,
+          "w_etf": 0.064155,
+          "capped": false,
+          "prix_rebal": 6350.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.002639,
+          "w_brvm30": 0.000864
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.001875,
+          "w_brvm30": 0.000614
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.031084,
+      "cost_bps": 0.3
+    },
+    {
+      "date": "2025-07-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 25200.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.109518,
+          "w_etf": 0.109518,
+          "capped": false,
+          "prix_rebal": 7140.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.107536,
+          "w_etf": 0.107536,
+          "capped": false,
+          "prix_rebal": 2635.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.105662,
+          "w_etf": 0.105662,
+          "capped": false,
+          "prix_rebal": 8150.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.099946,
+          "w_etf": 0.099946,
+          "capped": false,
+          "prix_rebal": 2645.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.084859,
+          "w_etf": 0.084859,
+          "capped": false,
+          "prix_rebal": 2525.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.075615,
+          "w_etf": 0.075615,
+          "capped": false,
+          "prix_rebal": 8150.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.066864,
+          "w_etf": 0.066864,
+          "capped": false,
+          "prix_rebal": 1605.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.0021,
+          "w_brvm30": 0.00064
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002104,
+          "w_brvm30": 0.000641
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.072129,
+      "cost_bps": 0.7
+    },
+    {
+      "date": "2025-10-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 25700.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.112917,
+          "w_etf": 0.112917,
+          "capped": false,
+          "prix_rebal": 7850.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.105088,
+          "w_etf": 0.105088,
+          "capped": false,
+          "prix_rebal": 2690.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.103277,
+          "w_etf": 0.103277,
+          "capped": false,
+          "prix_rebal": 8495.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.091467,
+          "w_etf": 0.091467,
+          "capped": false,
+          "prix_rebal": 2390.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.08504,
+          "w_etf": 0.08504,
+          "capped": false,
+          "prix_rebal": 2400.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.079565,
+          "w_etf": 0.079565,
+          "capped": false,
+          "prix_rebal": 9145.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.072645,
+          "w_etf": 0.072645,
+          "capped": false,
+          "prix_rebal": 2305.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.00225,
+          "w_brvm30": 0.000673
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002989,
+          "w_brvm30": 0.000894
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.045574,
+      "cost_bps": 0.5
+    },
+    {
+      "date": "2026-01-02",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 25995.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.115921,
+          "w_etf": 0.115921,
+          "capped": false,
+          "prix_rebal": 7750.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.10095,
+          "w_etf": 0.10095,
+          "capped": false,
+          "prix_rebal": 2485.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.098548,
+          "w_etf": 0.098548,
+          "capped": false,
+          "prix_rebal": 7795.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.097499,
+          "w_etf": 0.097499,
+          "capped": false,
+          "prix_rebal": 2450.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.086041,
+          "w_etf": 0.086041,
+          "capped": false,
+          "prix_rebal": 2335.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.078657,
+          "w_etf": 0.078657,
+          "capped": false,
+          "prix_rebal": 2400.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.072384,
+          "w_etf": 0.072384,
+          "capped": false,
+          "prix_rebal": 8000.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.003796,
+          "w_brvm30": 0.001067
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002423,
+          "w_brvm30": 0.000681
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.016048,
+      "cost_bps": 0.2
+    },
+    {
+      "date": "2026-04-01",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.35,
+          "w_etf": 0.35,
+          "capped": false,
+          "prix_rebal": 29000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ORGT",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.128321,
+          "w_etf": 0.128321,
+          "capped": false,
+          "prix_rebal": 3660.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.100974,
+          "w_etf": 0.100974,
+          "capped": false,
+          "prix_rebal": 2940.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.096167,
+          "w_etf": 0.096167,
+          "capped": false,
+          "prix_rebal": 3400.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.089848,
+          "w_etf": 0.089848,
+          "capped": false,
+          "prix_rebal": 6960.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.086497,
+          "w_etf": 0.086497,
+          "capped": false,
+          "prix_rebal": 2720.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.085104,
+          "w_etf": 0.085104,
+          "capped": false,
+          "prix_rebal": 7800.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PALC",
+          "nom": "PALMINDUSTRIE CI",
+          "w_brvm30": 0.06309,
+          "w_etf": 0.06309,
+          "capped": false,
+          "prix_rebal": 8080.0,
+          "adv_mfcfa": 0.0
+        }
+      ],
+      "excluded": [
+        {
+          "ticker": "NEIC",
+          "w_halal": 0.004254,
+          "w_brvm30": 0.001138
+        },
+        {
+          "ticker": "BNBC",
+          "w_halal": 0.002497,
+          "w_brvm30": 0.000668
+        }
+      ],
+      "cap_snts": 35.0,
+      "n_basket": 8,
+      "turnover": 0.048812,
+      "cost_bps": 0.5
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-07-27",
+    "aum_start_mfcfa": 2500.0,
+    "cap_snts_pct": 35.0,
+    "mgmt_fee_ann": 0.006,
+    "cash_buffer": 0.01
+  }
+}
