@@ -42,7 +42,6 @@ TICKER_NAMES   = {
 CAP_SNTS       = 0.30     # 30 % max pour tout titre (cap universel)
 MIN_HALAL_W    = 0.001    # 0.1 % min poids (abaissé pour inclure BNBC et CABC)
 MGMT_FEE_ANN   = 0.006   # 0.6 %/an
-SPREAD_COST    = 0.001    # 0.1 % aller-retour par rebalancement
 CASH_BUFFER    = 0.01     # 1 % cash
 AUM_START_MFCFA= 2500.0  # 2.5 Md FCFA
 ADV_DAYS       = 63       # fenêtre ADV
@@ -66,6 +65,15 @@ def load_json(path):
 def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def spread_one_way(adv_mfcfa):
+    """Spread bid-ask one-way selon la liquidité du titre (en fraction)."""
+    if adv_mfcfa >= 100: return 0.0025   # 25 bps
+    if adv_mfcfa >=  30: return 0.0040   # 40 bps
+    if adv_mfcfa >=  10: return 0.0080   # 80 bps
+    if adv_mfcfa >=   5: return 0.0125   # 125 bps
+    return 0.0175                          # 175 bps
+
 
 def compute_adv(sika_history, ref_date, n_days=ADV_DAYS):
     """ADV en MFCFA sur les n_days derniers jours ouvrés avant ref_date."""
@@ -166,7 +174,7 @@ def compute_halal_weights(brvmc_raw_w, adv_map, aum_mfcfa):
 
 T3_DAYS = 3  # jours de settlement BRVM
 
-def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_history, div_history):
+def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_history, div_history, adv_history=None):
     """
     Retourne (nav_index_series, nav_etf_series, rebal_log)
     nav_index = indice halal brut (Total Return, avant frais — pas de T+3, index théorique)
@@ -204,8 +212,12 @@ def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_histo
             if new_w_idx:
                 if curr_w_etf:
                     all_tks  = set(new_w_etf) | set(curr_w_etf)
+                    adv_rb   = (adv_history or {}).get(rd, {})
                     turnover = sum(abs(new_w_etf.get(t, 0) - curr_w_etf.get(t, 0)) for t in all_tks) / 2
-                    cost     = turnover * SPREAD_COST
+                    cost     = sum(
+                        abs(new_w_etf.get(t, 0) - curr_w_etf.get(t, 0)) * spread_one_way(adv_rb.get(t, 0))
+                        for t in all_tks
+                    )
                     nav_index *= (1.0 - cost)
                     nav_etf   *= (1.0 - cost)
                     total_to  += turnover
@@ -393,11 +405,13 @@ def main():
 
     w_halal_history = {}
     w_etf_history   = {}
+    adv_history     = {}
     rebal_detail_out = {"rebalancings": []}
 
     for rd in rebal_dates:
         brvmc_w = brvmc_w_at_date.get(rd, {})
         adv_map = compute_adv(sika_history, rd)
+        adv_history[rd] = adv_map
         # AUM approximatif à la date (ajusté si NAV a bougé — on utilise AUM_START pour simplifier)
         aum_approx = AUM_START_MFCFA
 
@@ -446,7 +460,8 @@ def main():
     print("\nSimulation NAV...")
 
     nav_idx, nav_etf, rebal_log, total_to = build_nav(
-        all_dates, rebal_dates, w_halal_history, w_etf_history, sika_history, div_history
+        all_dates, rebal_dates, w_halal_history, w_etf_history, sika_history, div_history,
+        adv_history=adv_history,
     )
 
     # ── Métriques ─────────────────────────────────────────────────────────── #
