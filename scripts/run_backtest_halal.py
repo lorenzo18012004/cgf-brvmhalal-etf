@@ -554,12 +554,12 @@ def main():
     print("[OK] validation_results.json sauvegarde")
 
     # ── Initialiser nav_latest.json ───────────────────────────────────────── #
-    _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf)
+    _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf, m_etf)
 
     print("\n[DONE] Backtest termine.")
 
 
-def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series):
+def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series, metrics_etf=None):
     """Initialise nav_latest.json avec le dernier rebalancement."""
     if not rebal_dates or not w_etf_history:
         return
@@ -595,20 +595,28 @@ def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series):
         if date.fromisoformat(d).weekday() < 5:
             nav_live_series.append([d, round(nav_etf_series[d], 0)])
 
+    # Série NAV complète (pour graphique historique dashboard)
+    nav_series = [[d, round(nav_etf_series[d], 4)] for d in all_dates
+                  if date.fromisoformat(d).weekday() < 5]
+
     nl = {
-        "calc_date":        last_date,
-        "launched":         False,
-        "nav_indice":       round(nav_last, 4),
-        "vl_par_part_fcfa": 100000,
-        "aum_mfcfa":        round(AUM_START_MFCFA, 1),
-        "perf_since_launch": None,
-        "change_day_pct":    None,
-        "n_parts":          25000,
-        "par_fcfa":         100000,
-        "source":           "backtest",
-        "basket":           basket,
-        "nav_live_series":  nav_live_series[-500:],
-        "rebal_date":       last_rd,
+        "calc_date":           last_date,
+        "launched":            False,
+        "nav_indice":          round(nav_last, 4),
+        "vl_par_part_fcfa":    100000,
+        "aum_mfcfa":           round(AUM_START_MFCFA, 1),
+        "perf_since_launch":   None,
+        "change_day_pct":      None,
+        "n_parts":             25000,
+        "par_fcfa":            100000,
+        "source":              "backtest",
+        "basket":              basket,
+        "nav_live_series":     nav_live_series[-500:],
+        "nav_series":          nav_series,
+        "perf_backtest_total": round(metrics_etf.get("perf_total_pct", 0), 2) if metrics_etf else None,
+        "vol_ann_pct":         round(metrics_etf.get("vol_ann_pct",    0), 2) if metrics_etf else None,
+        "max_drawdown_pct":    round(metrics_etf.get("max_drawdown_pct", 0), 2) if metrics_etf else None,
+        "rebal_date":          last_rd,
     }
 
     nav_path = os.path.join(DATA_DIR, "nav_latest.json")
