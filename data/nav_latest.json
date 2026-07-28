@@ -1,21 +1,21 @@
 {
-  "calc_date": null,
-  "launched": false,
-  "nav_indice": 2038.0984,
-  "vl_par_part_fcfa": 99338.0,
-  "aum_mfcfa": 2483.5,
-  "perf_since_launch": 0.0,
-  "change_day_pct": 0.0,
+  "calc_date": "2026-07-28",
+  "launched": true,
+  "nav_indice": 2038.0457,
+  "vl_par_part_fcfa": 99391.0,
+  "aum_mfcfa": 2484.8,
+  "perf_since_launch": -0.6094,
+  "change_day_pct": -0.0002,
   "n_parts": 25000,
   "par_fcfa": 100000,
   "source": "cloud_fallback_sika",
   "basket": [
     {
       "ticker": "SNTS",
-      "poids_pct": 29.4346,
+      "poids_pct": 29.4347,
       "dernier_prix": 31495.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 731.0,
+      "pv_mfcfa": 731.4,
       "prix_stale": false,
       "w_brvm30": 0.294346,
       "adv_mfcfa": null,
@@ -23,10 +23,10 @@
     },
     {
       "ticker": "ORAC",
-      "poids_pct": 28.8859,
+      "poids_pct": 28.886,
       "dernier_prix": 16200.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 717.4,
+      "pv_mfcfa": 717.7,
       "prix_stale": false,
       "w_brvm30": 0.288859,
       "adv_mfcfa": null,
@@ -37,7 +37,7 @@
       "poids_pct": 8.5574,
       "dernier_prix": 16400.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 212.5,
+      "pv_mfcfa": 212.6,
       "prix_stale": false,
       "w_brvm30": 0.085574,
       "adv_mfcfa": null,
@@ -59,7 +59,7 @@
       "poids_pct": 7.1359,
       "dernier_prix": 5390.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 177.2,
+      "pv_mfcfa": 177.3,
       "prix_stale": false,
       "w_brvm30": 0.071359,
       "adv_mfcfa": null,
@@ -70,7 +70,7 @@
       "poids_pct": 4.5318,
       "dernier_prix": 7500.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 112.5,
+      "pv_mfcfa": 112.6,
       "prix_stale": false,
       "w_brvm30": 0.045318,
       "adv_mfcfa": null,
@@ -81,7 +81,7 @@
       "poids_pct": 4.458,
       "dernier_prix": 2995.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 110.7,
+      "pv_mfcfa": 110.8,
       "prix_stale": false,
       "w_brvm30": 0.04458,
       "adv_mfcfa": null,
@@ -114,7 +114,7 @@
       "poids_pct": 3.2345,
       "dernier_prix": 8850.0,
       "last_price_date": "2026-07-28",
-      "pv_mfcfa": 80.3,
+      "pv_mfcfa": 80.4,
       "prix_stale": false,
       "w_brvm30": 0.032345,
       "adv_mfcfa": null,
@@ -154,7 +154,12 @@
       "force_otc": false
     }
   ],
-  "nav_live_series": [],
+  "nav_live_series": [
+    [
+      "2026-07-28",
+      99391.0
+    ]
+  ],
   "rebal_date": "2026-04-01",
   "n_live_prices": 13
 }
