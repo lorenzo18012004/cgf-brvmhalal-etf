@@ -254,8 +254,7 @@ def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_histo
             if p1 and p0 and p0 > 0:
                 ret_idx += w * (p1 / p0 - 1)
 
-        div_contrib = _daily_div_contrib(dt, curr_w_idx, sika_history, div_history)
-        ret_idx += div_contrib
+        # ETF PR : dividendes collectés et distribués aux porteurs, pas réinvestis dans la NAV
 
         # Indice halal brut — pas de T+3 (index théorique, settlement instantané)
         nav_index = nav_index * (1.0 + ret_idx)
