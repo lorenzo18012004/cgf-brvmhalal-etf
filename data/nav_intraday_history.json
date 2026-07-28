@@ -59,6 +59,66 @@
       "change_day_pct": -0.1732,
       "aum_mfcfa": 2495.7,
       "n_prices": 13
+    },
+    {
+      "time": "13:15",
+      "vl": 99827.0,
+      "nav_indice": 2046.9896,
+      "perf_since_launch": -0.1732,
+      "change_1d_pct": 0.4388,
+      "change_day_pct": -0.1732,
+      "aum_mfcfa": 2495.7,
+      "n_prices": 13
+    },
+    {
+      "time": "13:21",
+      "vl": 98949.0,
+      "nav_indice": 2028.9911,
+      "perf_since_launch": -1.051,
+      "change_1d_pct": 0.4388,
+      "change_day_pct": -1.051,
+      "aum_mfcfa": 2473.7,
+      "n_prices": 13
+    },
+    {
+      "time": "13:27",
+      "vl": 98872.0,
+      "nav_indice": 2027.4162,
+      "perf_since_launch": -1.1278,
+      "change_1d_pct": 0.3635,
+      "change_day_pct": -1.1278,
+      "aum_mfcfa": 2471.8,
+      "n_prices": 13
+    },
+    {
+      "time": "13:32",
+      "vl": 98872.0,
+      "nav_indice": 2027.4162,
+      "perf_since_launch": -1.1278,
+      "change_1d_pct": 0.3635,
+      "change_day_pct": -1.1278,
+      "aum_mfcfa": 2471.8,
+      "n_prices": 13
+    },
+    {
+      "time": "13:38",
+      "vl": 98872.0,
+      "nav_indice": 2027.4162,
+      "perf_since_launch": -1.1278,
+      "change_1d_pct": 0.3635,
+      "change_day_pct": -1.1278,
+      "aum_mfcfa": 2471.8,
+      "n_prices": 13
+    },
+    {
+      "time": "13:44",
+      "vl": 98969.0,
+      "nav_indice": 2029.4076,
+      "perf_since_launch": -1.0307,
+      "change_1d_pct": 0.4621,
+      "change_day_pct": -1.0307,
+      "aum_mfcfa": 2474.2,
+      "n_prices": 13
     }
   ]
 }
