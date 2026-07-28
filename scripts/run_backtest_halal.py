@@ -39,7 +39,7 @@ TICKER_NAMES   = {
     "NTLC":  "NESTLE CI",
 }
 
-CAP_SNTS       = 0.35     # 35 % max pour SONATEL
+CAP_SNTS       = 0.30     # 30 % max pour tout titre (cap universel)
 MIN_HALAL_W    = 0.001    # 0.1 % min poids (abaissé pour inclure BNBC et CABC)
 MGMT_FEE_ANN   = 0.006   # 0.6 %/an
 SPREAD_COST    = 0.001    # 0.1 % aller-retour par rebalancement
@@ -108,18 +108,23 @@ def compute_halal_weights(brvmc_raw_w, adv_map, aum_mfcfa):
         return {}, {}, list(excluded_tickers.items())
     filtered = {tk: w / total_filt for tk, w in filtered.items()}
 
-    # 4. Cap SNTS à 35 %
+    # 4. Cap universel à 30 % (itératif jusqu'à convergence)
     w_halal = dict(filtered)
-    if w_halal.get("SNTS", 0) > CAP_SNTS:
-        excess = w_halal["SNTS"] - CAP_SNTS
-        w_halal["SNTS"] = CAP_SNTS
-        others = {tk: w for tk, w in w_halal.items() if tk != "SNTS"}
-        tot_others = sum(others.values())
-        if tot_others > 0:
-            for tk in others:
-                w_halal[tk] += excess * others[tk] / tot_others
+    for _ in range(20):
+        capped = {tk for tk, w in w_halal.items() if w > CAP_SNTS}
+        if not capped:
+            break
+        overflow = sum(w - CAP_SNTS for tk, w in w_halal.items() if tk in capped)
+        for tk in capped:
+            w_halal[tk] = CAP_SNTS
+        free = {tk: w for tk, w in w_halal.items() if tk not in capped}
+        tot_free = sum(free.values())
+        if tot_free <= 0:
+            break
+        for tk in free:
+            w_halal[tk] += overflow * free[tk] / tot_free
 
-    # w_halal est maintenant l'indice halal (renormalisé, SNTS cappé 35 %)
+    # w_halal est maintenant l'indice halal (renormalisé, cap 30 % universel)
     w_halal_norm = dict(w_halal)
 
     # 5. Cap ADV (positions ETF)
