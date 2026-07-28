@@ -1,61 +1,61 @@
 {
-  "calc_date": "2026-07-24",
-  "launched": false,
-  "nav_indice": 1926.5244,
-  "vl_par_part_fcfa": 100000,
+  "calc_date": "2026-07-28",
+  "launched": true,
+  "nav_indice": 1926.4803,
+  "vl_par_part_fcfa": 100000.0,
   "aum_mfcfa": 2500.0,
-  "perf_since_launch": null,
-  "change_day_pct": null,
+  "perf_since_launch": 0.0,
+  "change_day_pct": 0.0001,
   "n_parts": 25000,
   "par_fcfa": 100000,
-  "source": "backtest",
+  "source": "cloud_fallback_sika",
   "basket": [
     {
       "ticker": "SNTS",
       "poids_pct": 35.0,
-      "dernier_prix": 31495,
+      "dernier_prix": 31495.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "ORGT",
       "poids_pct": 12.8321,
-      "dernier_prix": 2680,
+      "dernier_prix": 2680.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "ONTBF",
       "poids_pct": 10.0974,
-      "dernier_prix": 2800,
+      "dernier_prix": 2800.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "CIEC",
       "poids_pct": 9.6167,
-      "dernier_prix": 5390,
+      "dernier_prix": 5390.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "SPHC",
       "poids_pct": 8.9848,
-      "dernier_prix": 7500,
+      "dernier_prix": 7500.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "TTLC",
       "poids_pct": 8.6497,
-      "dernier_prix": 2995,
+      "dernier_prix": 2995.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "SOGC",
       "poids_pct": 8.5104,
-      "dernier_prix": 8215,
+      "dernier_prix": 8215.0,
       "last_price_date": "2026-07-24"
     },
     {
       "ticker": "PALC",
       "poids_pct": 6.309,
-      "dernier_prix": 8850,
+      "dernier_prix": 8850.0,
       "last_price_date": "2026-07-24"
     }
   ],
@@ -2059,7 +2059,12 @@
     [
       "2026-07-24",
       1927.0
+    ],
+    [
+      "2026-07-28",
+      100000.0
     ]
   ],
-  "rebal_date": "2026-04-01"
+  "rebal_date": "2026-04-01",
+  "n_live_prices": 8
 }
