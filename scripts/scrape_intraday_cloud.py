@@ -56,16 +56,28 @@ class IntradayScraperCloud(BaseScript):
             _total_ret = 0.0
             _n_live    = 0
             _prices_now = {}
+            _ticker_contribs = {}
             for _item in _basket:
-                _tk = _item["ticker"]
-                _w  = _item["poids_pct"] / 100.0
-                _p0 = _item.get("dernier_prix")
-                _p1 = float(live_prices[_tk]) if _tk in live_prices.index else None
+                _tk  = _item["ticker"]
+                _w   = _item["poids_pct"] / 100.0
+                _w_pct = _item["poids_pct"]
+                _p0  = _item.get("dernier_prix")
+                _p1  = float(live_prices[_tk]) if _tk in live_prices.index else None
                 if _p1:
                     _prices_now[_tk] = round(_p1, 0)
                 if _p0 and _p0 > 0 and _p1 and _p1 > 0:
-                    _total_ret += _w * (_p1 / _p0 - 1)
+                    _ret = (_p1 / _p0 - 1)
+                    _total_ret += _w * _ret
                     _n_live += 1
+                    _ticker_contribs[_tk] = {
+                        "w_pct":           round(_w_pct, 4),
+                        "w_brvm30_pct":    round(_w_pct, 4),
+                        "prix_prev":       _p0,
+                        "prix_now":        _p1,
+                        "ret_pct":         round(_ret * 100, 3),
+                        "contrib_pct":     round(_w * _ret * 100, 4),
+                        "gap_contrib_pct": 0.0,
+                    }
 
             _nav_live   = _nav_base * (1.0 + _total_ret)
             _nav_anchor = float(_ls["nav_index_at_launch"]) if _ls and _ls.get("nav_index_at_launch") else None
@@ -117,16 +129,18 @@ class IntradayScraperCloud(BaseScript):
             perf_launch = round((nav_result["nav_indice"] / nav_anchor - 1) * 100, 4)
 
         snapshot = {
-            "time":              now_utc.strftime("%H:%M"),
-            "nav_indice":        nav_result["nav_indice"],
-            "vl_par_part":       nav_result["vl_par_part_fcfa"],
-            "vl_live_fcfa":      vl_live,
-            "perf_since_launch": perf_launch,
-            "change_1d_pct":     nav_result["change_1d_pct"],
-            "change_day_pct":    round(change_day, 4),
-            "aum_mfcfa":         nav_result["aum_mfcfa"],
-            "n_prices":          nav_result["n_live_prices"],
-            "prices_by_ticker":  _prices_now,
+            "time":                 now_utc.strftime("%H:%M"),
+            "nav_indice":           nav_result["nav_indice"],
+            "halal_official":       nav_result["nav_indice"],
+            "vl_par_part":          nav_result["vl_par_part_fcfa"],
+            "vl_live_fcfa":         vl_live,
+            "perf_since_launch":    perf_launch,
+            "change_1d_pct":        nav_result["change_1d_pct"],
+            "change_day_pct":       round(change_day, 4),
+            "aum_mfcfa":            nav_result["aum_mfcfa"],
+            "n_prices":             nav_result["n_live_prices"],
+            "prices_by_ticker":     _prices_now,
+            "ticker_contributions": _ticker_contribs,
         }
 
         existing_times = {s["time"] for s in data["snapshots"]}
