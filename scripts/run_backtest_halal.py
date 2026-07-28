@@ -156,11 +156,19 @@ def compute_halal_weights(brvmc_raw_w, adv_map, aum_mfcfa):
 
 # ── Simulation NAV ────────────────────────────────────────────────────────── #
 
+T3_DAYS = 3  # jours de settlement BRVM
+
 def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_history, div_history):
     """
     Retourne (nav_index_series, nav_etf_series, rebal_log)
-    nav_index = indice halal brut (Total Return, avant frais)
-    nav_etf   = VL ETF (après frais + cash buffer)
+    nav_index = indice halal brut (Total Return, avant frais — pas de T+3, index théorique)
+    nav_etf   = VL ETF (après frais + cash buffer + drag T+3 settlement)
+
+    Modélisation T+3 :
+      Jour T (rebalancement) : ventes et achats simultanés.
+      Jours T+1, T+2, T+3 : la portion vendue/achetée (turnover) est en transit —
+      elle gagne le taux sans risque plutôt que le rendement du panier.
+      Cela crée un drag sur l'ETF (pas sur l'indice théorique) et augmente la TE.
     """
     nav_index = NAV_BASE
     nav_etf   = NAV_BASE
@@ -170,10 +178,14 @@ def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_histo
     rebal_log        = {}
 
     rb_idx      = 0
-    curr_w_idx  = {}  # poids indice halal courant
-    curr_w_etf  = {}  # poids ETF courant
+    curr_w_idx  = {}
+    curr_w_etf  = {}
     prev_date   = None
     total_to    = 0.0
+
+    # {date: turnover_fraction_en_transit} — les 3 jours après chaque rebal
+    t3_pending  = {}
+    dates_set   = set(all_dates)
 
     for dt in all_dates:
         # Rebalancement trimestriel
@@ -183,12 +195,18 @@ def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_histo
             new_w_etf = w_etf_history.get(rd, {})
             if new_w_idx:
                 if curr_w_etf:
-                    all_tks = set(new_w_etf) | set(curr_w_etf)
+                    all_tks  = set(new_w_etf) | set(curr_w_etf)
                     turnover = sum(abs(new_w_etf.get(t, 0) - curr_w_etf.get(t, 0)) for t in all_tks) / 2
                     cost     = turnover * SPREAD_COST
                     nav_index *= (1.0 - cost)
                     nav_etf   *= (1.0 - cost)
                     total_to  += turnover
+                    # Marquer les T3_DAYS jours suivants comme en transit (settlement)
+                    dt_idx = all_dates.index(dt)
+                    for k in range(1, T3_DAYS + 1):
+                        if dt_idx + k < len(all_dates):
+                            future_d = all_dates[dt_idx + k]
+                            t3_pending[future_d] = t3_pending.get(future_d, 0.0) + turnover
                 else:
                     turnover, cost = 0.0, 0.0
                 curr_w_idx = new_w_idx
@@ -208,23 +226,29 @@ def build_nav(all_dates, rebal_dates, w_halal_history, w_etf_history, sika_histo
         # Rendement journalier du panier
         ret_idx = 0.0
         for tk, w in curr_w_idx.items():
-            h   = sika_history.get(tk, {})
-            e1  = h.get(dt)
-            e0  = h.get(prev_date)
-            p1  = (e1.get("close") if isinstance(e1, dict) else e1) if e1 else None
-            p0  = (e0.get("close") if isinstance(e0, dict) else e0) if e0 else None
+            h  = sika_history.get(tk, {})
+            e1 = h.get(dt)
+            e0 = h.get(prev_date)
+            p1 = (e1.get("close") if isinstance(e1, dict) else e1) if e1 else None
+            p0 = (e0.get("close") if isinstance(e0, dict) else e0) if e0 else None
             if p1 and p0 and p0 > 0:
                 ret_idx += w * (p1 / p0 - 1)
 
-        # Dividendes (Total Return) : distribués en % de NAV
         div_contrib = _daily_div_contrib(dt, curr_w_idx, sika_history, div_history)
         ret_idx += div_contrib
 
-        # Indice halal brut
+        # Indice halal brut — pas de T+3 (index théorique, settlement instantané)
         nav_index = nav_index * (1.0 + ret_idx)
 
-        # ETF : cash drag + frais journaliers
-        ret_etf = (1.0 - CASH_BUFFER) * ret_idx + CASH_BUFFER * RF_DAILY
+        # ETF : cash drag + frais + drag T+3
+        t3_fraction = min(t3_pending.pop(dt, 0.0), 1.0)  # part du portefeuille en transit
+        if t3_fraction > 0:
+            # Portion en transit gagne RF au lieu du rendement panier
+            ret_etf_basket  = (1.0 - t3_fraction) * ret_idx + t3_fraction * RF_DAILY
+        else:
+            ret_etf_basket  = ret_idx
+
+        ret_etf = (1.0 - CASH_BUFFER) * ret_etf_basket + CASH_BUFFER * RF_DAILY
         nav_etf = nav_etf * (1.0 + ret_etf) * FEE_DAILY
 
         nav_index_series[dt] = round(nav_index, 4)
