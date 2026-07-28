@@ -2934,7 +2934,7 @@ def _render_live():
 
             if nl and launched:
                 par       = float((launch or {}).get("par_fcfa", 100000))
-                nav_anch  = float((launch or {}).get("nav_index_at_launch", 100))
+                nav_anch  = float((launch or {}).get("nav_index_at_launch") or 100)
                 launch_dt = pd.Timestamp(launch_date) if launch_date else None
 
                 # Charger historique intraday multi-sessions (15 min par point)
