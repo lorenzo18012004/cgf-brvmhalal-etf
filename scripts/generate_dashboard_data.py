@@ -8,8 +8,19 @@ from datetime import datetime
 BASE     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE, "data")
 
+MONTHS = {1:'Jan.',2:'Feb.',3:'Mar.',4:'Apr.',5:'May.',6:'Jun.',
+          7:'Jul.',8:'Aug.',9:'Sep.',10:'Oct.',11:'Nov.',12:'Dec.'}
+
 vr = json.load(open(os.path.join(DATA_DIR, "validation_results.json"), encoding="utf-8"))
 rd = json.load(open(os.path.join(DATA_DIR, "rebal_detail.json"),       encoding="utf-8"))
+
+# Assurer que chaque rebalancing a un date_label
+for r in rd.get("rebalancings", []):
+    if "date_label" not in r:
+        d = datetime.fromisoformat(r["date"])
+        r["date_label"] = f"{d.day:02d} {MONTHS[d.month]} {d.year}"
+with open(os.path.join(DATA_DIR, "rebal_detail.json"), "w", encoding="utf-8") as _f:
+    json.dump(rd, _f, ensure_ascii=False, indent=2)
 
 # ── dashboard_data.json ───────────────────────────────────────────────────────
 nav_etf   = vr.get("nav_etf_series",   [])

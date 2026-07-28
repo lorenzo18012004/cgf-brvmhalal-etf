@@ -92,7 +92,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.0,
-      "cost_bps": 0.0
+      "cost_bps": 0.0,
+      "date_label": "02 Jan. 2023"
     },
     {
       "date": "2023-04-03",
@@ -186,7 +187,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.035709,
-      "cost_bps": 0.4
+      "cost_bps": 0.4,
+      "date_label": "03 Apr. 2023"
     },
     {
       "date": "2023-07-03",
@@ -284,7 +286,8 @@
       "cap_snts": 35.0,
       "n_basket": 9,
       "turnover": 0.039255,
-      "cost_bps": 0.4
+      "cost_bps": 0.4,
+      "date_label": "03 Jul. 2023"
     },
     {
       "date": "2023-10-02",
@@ -378,7 +381,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.04764,
-      "cost_bps": 0.5
+      "cost_bps": 0.5,
+      "date_label": "02 Oct. 2023"
     },
     {
       "date": "2024-01-02",
@@ -472,7 +476,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.024055,
-      "cost_bps": 0.2
+      "cost_bps": 0.2,
+      "date_label": "02 Jan. 2024"
     },
     {
       "date": "2024-04-02",
@@ -566,7 +571,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.018245,
-      "cost_bps": 0.2
+      "cost_bps": 0.2,
+      "date_label": "02 Apr. 2024"
     },
     {
       "date": "2024-07-01",
@@ -660,7 +666,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.047046,
-      "cost_bps": 0.5
+      "cost_bps": 0.5,
+      "date_label": "01 Jul. 2024"
     },
     {
       "date": "2024-10-01",
@@ -754,7 +761,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.043421,
-      "cost_bps": 0.4
+      "cost_bps": 0.4,
+      "date_label": "01 Oct. 2024"
     },
     {
       "date": "2025-01-02",
@@ -848,7 +856,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.019639,
-      "cost_bps": 0.2
+      "cost_bps": 0.2,
+      "date_label": "02 Jan. 2025"
     },
     {
       "date": "2025-04-01",
@@ -942,7 +951,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.031084,
-      "cost_bps": 0.3
+      "cost_bps": 0.3,
+      "date_label": "01 Apr. 2025"
     },
     {
       "date": "2025-07-01",
@@ -1036,7 +1046,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.072129,
-      "cost_bps": 0.7
+      "cost_bps": 0.7,
+      "date_label": "01 Jul. 2025"
     },
     {
       "date": "2025-10-01",
@@ -1130,7 +1141,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.045574,
-      "cost_bps": 0.5
+      "cost_bps": 0.5,
+      "date_label": "01 Oct. 2025"
     },
     {
       "date": "2026-01-02",
@@ -1224,7 +1236,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.016048,
-      "cost_bps": 0.2
+      "cost_bps": 0.2,
+      "date_label": "02 Jan. 2026"
     },
     {
       "date": "2026-04-01",
@@ -1318,7 +1331,8 @@
       "cap_snts": 35.0,
       "n_basket": 8,
       "turnover": 0.048812,
-      "cost_bps": 0.5
+      "cost_bps": 0.5,
+      "date_label": "01 Apr. 2026"
     }
   ],
   "metadata": {
