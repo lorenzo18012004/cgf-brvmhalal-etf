@@ -5,6 +5,15 @@
       "skipped": false,
       "basket": [
         {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.384248,
+          "w_etf": 0.384248,
+          "capped": false,
+          "prix_rebal": 10925.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "SNTS",
           "nom": "SONATEL",
           "w_brvm30": 0.35,
@@ -14,28 +23,28 @@
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.15281,
-          "w_etf": 0.15281,
-          "capped": false,
-          "prix_rebal": 3800.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.125272,
-          "w_etf": 0.125272,
+          "w_brvm30": 0.050482,
+          "w_etf": 0.050482,
           "capped": false,
           "prix_rebal": 3180.0,
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.042483,
+          "w_etf": 0.042483,
+          "capped": false,
+          "prix_rebal": 8245.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.093142,
-          "w_etf": 0.093142,
+          "w_brvm30": 0.037534,
+          "w_etf": 0.037534,
           "capped": false,
           "prix_rebal": 10400.0,
           "adv_mfcfa": 0.0
@@ -43,8 +52,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.073958,
-          "w_etf": 0.073958,
+          "w_brvm30": 0.029803,
+          "w_etf": 0.029803,
           "capped": false,
           "prix_rebal": 4995.0,
           "adv_mfcfa": 0.0
@@ -52,8 +61,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.070957,
-          "w_etf": 0.070957,
+          "w_brvm30": 0.028594,
+          "w_etf": 0.028594,
           "capped": false,
           "prix_rebal": 5670.0,
           "adv_mfcfa": 0.0
@@ -61,8 +70,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.069303,
-          "w_etf": 0.069303,
+          "w_brvm30": 0.027928,
+          "w_etf": 0.027928,
           "capped": false,
           "prix_rebal": 1900.0,
           "adv_mfcfa": 0.0
@@ -70,27 +79,52 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.064559,
-          "w_etf": 0.064559,
+          "w_brvm30": 0.026016,
+          "w_etf": 0.026016,
           "capped": false,
           "prix_rebal": 1990.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003804,
-          "w_brvm30": 0.001331
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.011031,
+          "w_etf": 0.011031,
+          "capped": false,
+          "prix_rebal": 750.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.007172,
+          "w_etf": 0.007172,
+          "capped": false,
+          "prix_rebal": 3000.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.004933,
-          "w_brvm30": 0.001726
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.003092,
+          "w_etf": 0.003092,
+          "capped": false,
+          "prix_rebal": 2000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001618,
+          "w_etf": 0.001618,
+          "capped": false,
+          "prix_rebal": 1170.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
+      "n_basket": 13,
       "turnover": 0.0,
       "cost_bps": 0.0,
       "date_label": "02 Jan. 2023"
@@ -99,6 +133,15 @@
       "date": "2023-04-03",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.361077,
+          "w_etf": 0.361077,
+          "capped": false,
+          "prix_rebal": 9500.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -111,35 +154,35 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.134005,
-          "w_etf": 0.134005,
+          "w_brvm30": 0.056613,
+          "w_etf": 0.056613,
           "capped": false,
           "prix_rebal": 3300.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.117101,
-          "w_etf": 0.117101,
-          "capped": false,
-          "prix_rebal": 2825.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.101041,
-          "w_etf": 0.101041,
+          "w_brvm30": 0.042686,
+          "w_etf": 0.042686,
           "capped": false,
           "prix_rebal": 10945.0,
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.038697,
+          "w_etf": 0.038697,
+          "capped": false,
+          "prix_rebal": 6950.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.079332,
-          "w_etf": 0.079332,
+          "w_brvm30": 0.033515,
+          "w_etf": 0.033515,
           "capped": false,
           "prix_rebal": 2110.0,
           "adv_mfcfa": 0.0
@@ -147,8 +190,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.076312,
-          "w_etf": 0.076312,
+          "w_brvm30": 0.032239,
+          "w_etf": 0.032239,
           "capped": false,
           "prix_rebal": 5000.0,
           "adv_mfcfa": 0.0
@@ -156,8 +199,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.071981,
-          "w_etf": 0.071981,
+          "w_brvm30": 0.03041,
+          "w_etf": 0.03041,
           "capped": false,
           "prix_rebal": 5580.0,
           "adv_mfcfa": 0.0
@@ -165,35 +208,69 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.070227,
-          "w_etf": 0.070227,
+          "w_brvm30": 0.029669,
+          "w_etf": 0.029669,
           "capped": false,
           "prix_rebal": 2100.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003228,
-          "w_brvm30": 0.001167
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.012237,
+          "w_etf": 0.012237,
+          "capped": false,
+          "prix_rebal": 770.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.008021,
+          "w_etf": 0.008021,
+          "capped": false,
+          "prix_rebal": 3105.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.004926,
-          "w_brvm30": 0.001781
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.003342,
+          "w_etf": 0.003342,
+          "capped": false,
+          "prix_rebal": 2000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001494,
+          "w_etf": 0.001494,
+          "capped": false,
+          "prix_rebal": 1000.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.035709,
-      "cost_bps": 0.4,
+      "n_basket": 13,
+      "turnover": 0.02708,
+      "cost_bps": 0.3,
       "date_label": "03 Apr. 2023"
     },
     {
       "date": "2023-07-03",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.375948,
+          "w_etf": 0.375948,
+          "capped": false,
+          "prix_rebal": 9560.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -204,28 +281,28 @@
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.124038,
-          "w_etf": 0.124038,
+          "ticker": "ONTBF",
+          "nom": "ONATEL BF",
+          "w_brvm30": 0.047924,
+          "w_etf": 0.047924,
           "capped": false,
           "prix_rebal": 2700.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ONTBF",
-          "nom": "ONATEL BF",
-          "w_brvm30": 0.121509,
-          "w_etf": 0.121509,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.044331,
+          "w_etf": 0.044331,
           "capped": false,
-          "prix_rebal": 2700.0,
+          "prix_rebal": 7695.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.105896,
-          "w_etf": 0.105896,
+          "w_brvm30": 0.041766,
+          "w_etf": 0.041766,
           "capped": false,
           "prix_rebal": 10350.0,
           "adv_mfcfa": 0.0
@@ -233,8 +310,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.090007,
-          "w_etf": 0.090007,
+          "w_brvm30": 0.035499,
+          "w_etf": 0.035499,
           "capped": false,
           "prix_rebal": 2160.0,
           "adv_mfcfa": 0.0
@@ -242,8 +319,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.077832,
-          "w_etf": 0.077832,
+          "w_brvm30": 0.030697,
+          "w_etf": 0.030697,
           "capped": false,
           "prix_rebal": 2100.0,
           "adv_mfcfa": 0.0
@@ -251,8 +328,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.068338,
-          "w_etf": 0.068338,
+          "w_brvm30": 0.026953,
+          "w_etf": 0.026953,
           "capped": false,
           "prix_rebal": 4780.0,
           "adv_mfcfa": 0.0
@@ -260,39 +337,69 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.053196,
-          "w_etf": 0.053196,
+          "w_brvm30": 0.020981,
+          "w_etf": 0.020981,
           "capped": false,
           "prix_rebal": 3145.0,
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.012415,
+          "w_etf": 0.012415,
+          "capped": false,
+          "prix_rebal": 755.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.008286,
+          "w_etf": 0.008286,
+          "capped": false,
+          "prix_rebal": 3100.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "BNBC",
           "nom": "BERNABE CI",
-          "w_brvm30": 0.009184,
-          "w_etf": 0.009184,
+          "w_brvm30": 0.003622,
+          "w_etf": 0.003622,
           "capped": false,
           "prix_rebal": 2095.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003506,
-          "w_brvm30": 0.001194
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001575,
+          "w_etf": 0.001575,
+          "capped": false,
+          "prix_rebal": 1020.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 9,
-      "turnover": 0.039255,
-      "cost_bps": 0.4,
+      "n_basket": 13,
+      "turnover": 0.024323,
+      "cost_bps": 0.2,
       "date_label": "03 Jul. 2023"
     },
     {
       "date": "2023-10-02",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.405617,
+          "w_etf": 0.405617,
+          "capped": false,
+          "prix_rebal": 10505.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -303,19 +410,19 @@
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.14712,
-          "w_etf": 0.14712,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.049183,
+          "w_etf": 0.049183,
           "capped": false,
-          "prix_rebal": 2800.0,
+          "prix_rebal": 8695.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.108347,
-          "w_etf": 0.108347,
+          "w_brvm30": 0.036686,
+          "w_etf": 0.036686,
           "capped": false,
           "prix_rebal": 2105.0,
           "adv_mfcfa": 0.0
@@ -323,8 +430,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.103892,
-          "w_etf": 0.103892,
+          "w_brvm30": 0.035177,
+          "w_etf": 0.035177,
           "capped": false,
           "prix_rebal": 2180.0,
           "adv_mfcfa": 0.0
@@ -332,8 +439,8 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.088524,
-          "w_etf": 0.088524,
+          "w_brvm30": 0.029973,
+          "w_etf": 0.029973,
           "capped": false,
           "prix_rebal": 7565.0,
           "adv_mfcfa": 0.0
@@ -341,8 +448,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.087531,
-          "w_etf": 0.087531,
+          "w_brvm30": 0.029637,
+          "w_etf": 0.029637,
           "capped": false,
           "prix_rebal": 2065.0,
           "adv_mfcfa": 0.0
@@ -350,8 +457,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.060416,
-          "w_etf": 0.060416,
+          "w_brvm30": 0.020456,
+          "w_etf": 0.020456,
           "capped": false,
           "prix_rebal": 3695.0,
           "adv_mfcfa": 0.0
@@ -359,35 +466,69 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.054171,
-          "w_etf": 0.054171,
+          "w_brvm30": 0.018342,
+          "w_etf": 0.018342,
           "capped": false,
           "prix_rebal": 2800.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003229,
-          "w_brvm30": 0.001038
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.012674,
+          "w_etf": 0.012674,
+          "capped": false,
+          "prix_rebal": 785.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.007362,
+          "w_etf": 0.007362,
+          "capped": false,
+          "prix_rebal": 2805.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.004857,
-          "w_brvm30": 0.001561
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.003123,
+          "w_etf": 0.003123,
+          "capped": false,
+          "prix_rebal": 1840.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001769,
+          "w_etf": 0.001769,
+          "capped": false,
+          "prix_rebal": 1165.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.04764,
-      "cost_bps": 0.5,
+      "n_basket": 13,
+      "turnover": 0.034973,
+      "cost_bps": 0.3,
       "date_label": "02 Oct. 2023"
     },
     {
       "date": "2024-01-02",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.425253,
+          "w_etf": 0.425253,
+          "capped": false,
+          "prix_rebal": 10600.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -398,19 +539,19 @@
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.145802,
-          "w_etf": 0.145802,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.043286,
+          "w_etf": 0.043286,
           "capped": false,
-          "prix_rebal": 2495.0,
+          "prix_rebal": 7365.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.129952,
-          "w_etf": 0.129952,
+          "w_brvm30": 0.041105,
+          "w_etf": 0.041105,
           "capped": false,
           "prix_rebal": 2270.0,
           "adv_mfcfa": 0.0
@@ -418,8 +559,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.094351,
-          "w_etf": 0.094351,
+          "w_brvm30": 0.029844,
+          "w_etf": 0.029844,
           "capped": false,
           "prix_rebal": 1780.0,
           "adv_mfcfa": 0.0
@@ -427,8 +568,8 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.090973,
-          "w_etf": 0.090973,
+          "w_brvm30": 0.028775,
+          "w_etf": 0.028775,
           "capped": false,
           "prix_rebal": 6990.0,
           "adv_mfcfa": 0.0
@@ -436,8 +577,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.080144,
-          "w_etf": 0.080144,
+          "w_brvm30": 0.02535,
+          "w_etf": 0.02535,
           "capped": false,
           "prix_rebal": 1700.0,
           "adv_mfcfa": 0.0
@@ -445,8 +586,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.059287,
-          "w_etf": 0.059287,
+          "w_brvm30": 0.018753,
+          "w_etf": 0.018753,
           "capped": false,
           "prix_rebal": 3260.0,
           "adv_mfcfa": 0.0
@@ -454,28 +595,53 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.049491,
-          "w_etf": 0.049491,
+          "w_brvm30": 0.015654,
+          "w_etf": 0.015654,
           "capped": false,
           "prix_rebal": 2300.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003653,
-          "w_brvm30": 0.001201
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.013253,
+          "w_etf": 0.013253,
+          "capped": false,
+          "prix_rebal": 790.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.005181,
+          "w_etf": 0.005181,
+          "capped": false,
+          "prix_rebal": 1900.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002689,
-          "w_brvm30": 0.000884
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001852,
+          "w_etf": 0.001852,
+          "capped": false,
+          "prix_rebal": 1050.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001695,
+          "w_etf": 0.001695,
+          "capped": false,
+          "prix_rebal": 1075.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.024055,
+      "n_basket": 13,
+      "turnover": 0.024634,
       "cost_bps": 0.2,
       "date_label": "02 Jan. 2024"
     },
@@ -483,6 +649,15 @@
       "date": "2024-04-02",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.427725,
+          "w_etf": 0.427725,
+          "capped": false,
+          "prix_rebal": 10845.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -495,26 +670,26 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.133128,
-          "w_etf": 0.133128,
+          "w_brvm30": 0.041033,
+          "w_etf": 0.041033,
           "capped": false,
           "prix_rebal": 2305.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.132659,
-          "w_etf": 0.132659,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.039809,
+          "w_etf": 0.039809,
           "capped": false,
-          "prix_rebal": 2250.0,
+          "prix_rebal": 6890.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.091912,
-          "w_etf": 0.091912,
+          "w_brvm30": 0.028329,
+          "w_etf": 0.028329,
           "capped": false,
           "prix_rebal": 7000.0,
           "adv_mfcfa": 0.0
@@ -522,8 +697,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.090912,
-          "w_etf": 0.090912,
+          "w_brvm30": 0.028021,
+          "w_etf": 0.028021,
           "capped": false,
           "prix_rebal": 1700.0,
           "adv_mfcfa": 0.0
@@ -531,8 +706,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.078481,
-          "w_etf": 0.078481,
+          "w_brvm30": 0.02419,
+          "w_etf": 0.02419,
           "capped": false,
           "prix_rebal": 1650.0,
           "adv_mfcfa": 0.0
@@ -540,8 +715,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.069723,
-          "w_etf": 0.069723,
+          "w_brvm30": 0.02149,
+          "w_etf": 0.02149,
           "capped": false,
           "prix_rebal": 3800.0,
           "adv_mfcfa": 0.0
@@ -549,35 +724,69 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.053185,
-          "w_etf": 0.053185,
+          "w_brvm30": 0.016393,
+          "w_etf": 0.016393,
           "capped": false,
           "prix_rebal": 2450.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.0032,
-          "w_brvm30": 0.001028
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.013112,
+          "w_etf": 0.013112,
+          "capped": false,
+          "prix_rebal": 795.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.006099,
+          "w_etf": 0.006099,
+          "capped": false,
+          "prix_rebal": 2275.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.003194,
-          "w_brvm30": 0.001026
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.00215,
+          "w_etf": 0.00215,
+          "capped": false,
+          "prix_rebal": 1240.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.00165,
+          "w_etf": 0.00165,
+          "capped": false,
+          "prix_rebal": 1065.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.018245,
-      "cost_bps": 0.2,
+      "n_basket": 13,
+      "turnover": 0.007165,
+      "cost_bps": 0.1,
       "date_label": "02 Apr. 2024"
     },
     {
       "date": "2024-07-01",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.426989,
+          "w_etf": 0.426989,
+          "capped": false,
+          "prix_rebal": 11850.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -590,26 +799,26 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.151263,
-          "w_etf": 0.151263,
+          "w_brvm30": 0.045294,
+          "w_etf": 0.045294,
           "capped": false,
           "prix_rebal": 2785.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.108392,
-          "w_etf": 0.108392,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.039589,
+          "w_etf": 0.039589,
           "capped": false,
-          "prix_rebal": 1955.0,
+          "prix_rebal": 7500.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.106114,
-          "w_etf": 0.106114,
+          "w_brvm30": 0.031774,
+          "w_etf": 0.031774,
           "capped": false,
           "prix_rebal": 2110.0,
           "adv_mfcfa": 0.0
@@ -617,8 +826,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.089236,
-          "w_etf": 0.089236,
+          "w_brvm30": 0.02672,
+          "w_etf": 0.02672,
           "capped": false,
           "prix_rebal": 1995.0,
           "adv_mfcfa": 0.0
@@ -626,8 +835,8 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.076741,
-          "w_etf": 0.076741,
+          "w_brvm30": 0.022979,
+          "w_etf": 0.022979,
           "capped": false,
           "prix_rebal": 6215.0,
           "adv_mfcfa": 0.0
@@ -635,8 +844,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.062114,
-          "w_etf": 0.062114,
+          "w_brvm30": 0.018599,
+          "w_etf": 0.018599,
           "capped": false,
           "prix_rebal": 3600.0,
           "adv_mfcfa": 0.0
@@ -644,35 +853,69 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.056141,
-          "w_etf": 0.056141,
+          "w_brvm30": 0.016811,
+          "w_etf": 0.016811,
           "capped": false,
           "prix_rebal": 2750.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003689,
-          "w_brvm30": 0.001213
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.012959,
+          "w_etf": 0.012959,
+          "capped": false,
+          "prix_rebal": 860.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.005266,
+          "w_etf": 0.005266,
+          "capped": false,
+          "prix_rebal": 2150.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001523,
+          "w_etf": 0.001523,
+          "capped": false,
+          "prix_rebal": 1075.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002275,
-          "w_brvm30": 0.000748
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001497,
+          "w_etf": 0.001497,
+          "capped": false,
+          "prix_rebal": 945.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.047046,
-      "cost_bps": 0.5,
+      "n_basket": 13,
+      "turnover": 0.010964,
+      "cost_bps": 0.1,
       "date_label": "01 Jul. 2024"
     },
     {
       "date": "2024-10-01",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.464172,
+          "w_etf": 0.464172,
+          "capped": false,
+          "prix_rebal": 15500.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -685,35 +928,35 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.134651,
-          "w_etf": 0.134651,
+          "w_brvm30": 0.033589,
+          "w_etf": 0.033589,
           "capped": false,
           "prix_rebal": 2485.0,
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.030709,
+          "w_etf": 0.030709,
+          "capped": false,
+          "prix_rebal": 7000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.120161,
-          "w_etf": 0.120161,
+          "w_brvm30": 0.029974,
+          "w_etf": 0.029974,
           "capped": false,
           "prix_rebal": 2395.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.099564,
-          "w_etf": 0.099564,
-          "capped": false,
-          "prix_rebal": 1800.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.098174,
-          "w_etf": 0.098174,
+          "w_brvm30": 0.024489,
+          "w_etf": 0.024489,
           "capped": false,
           "prix_rebal": 2200.0,
           "adv_mfcfa": 0.0
@@ -721,8 +964,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.070872,
-          "w_etf": 0.070872,
+          "w_brvm30": 0.017679,
+          "w_etf": 0.017679,
           "capped": false,
           "prix_rebal": 3480.0,
           "adv_mfcfa": 0.0
@@ -730,8 +973,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.067819,
-          "w_etf": 0.067819,
+          "w_brvm30": 0.016917,
+          "w_etf": 0.016917,
           "capped": false,
           "prix_rebal": 3940.0,
           "adv_mfcfa": 0.0
@@ -739,28 +982,53 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.05876,
-          "w_etf": 0.05876,
+          "w_brvm30": 0.014658,
+          "w_etf": 0.014658,
           "capped": false,
           "prix_rebal": 4770.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003157,
-          "w_brvm30": 0.001021
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.010644,
+          "w_etf": 0.010644,
+          "capped": false,
+          "prix_rebal": 850.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.00463,
+          "w_etf": 0.00463,
+          "capped": false,
+          "prix_rebal": 2275.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002258,
-          "w_brvm30": 0.00073
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001415,
+          "w_etf": 0.001415,
+          "capped": false,
+          "prix_rebal": 1075.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001124,
+          "w_etf": 0.001124,
+          "capped": false,
+          "prix_rebal": 955.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.043421,
+      "n_basket": 13,
+      "turnover": 0.038052,
       "cost_bps": 0.4,
       "date_label": "01 Oct. 2024"
     },
@@ -768,6 +1036,15 @@
       "date": "2025-01-02",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.473444,
+          "w_etf": 0.473444,
+          "capped": false,
+          "prix_rebal": 17500.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -778,10 +1055,19 @@
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.031549,
+          "w_etf": 0.031549,
+          "capped": false,
+          "prix_rebal": 7960.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.119638,
-          "w_etf": 0.119638,
+          "w_brvm30": 0.02804,
+          "w_etf": 0.02804,
           "capped": false,
           "prix_rebal": 2480.0,
           "adv_mfcfa": 0.0
@@ -789,26 +1075,17 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.119313,
-          "w_etf": 0.119313,
+          "w_brvm30": 0.027964,
+          "w_etf": 0.027964,
           "capped": false,
           "prix_rebal": 2290.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.102114,
-          "w_etf": 0.102114,
-          "capped": false,
-          "prix_rebal": 1920.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.094395,
-          "w_etf": 0.094395,
+          "w_brvm30": 0.022123,
+          "w_etf": 0.022123,
           "capped": false,
           "prix_rebal": 2200.0,
           "adv_mfcfa": 0.0
@@ -816,8 +1093,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.079312,
-          "w_etf": 0.079312,
+          "w_brvm30": 0.018588,
+          "w_etf": 0.018588,
           "capped": false,
           "prix_rebal": 4050.0,
           "adv_mfcfa": 0.0
@@ -825,8 +1102,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.0763,
-          "w_etf": 0.0763,
+          "w_brvm30": 0.017883,
+          "w_etf": 0.017883,
           "capped": false,
           "prix_rebal": 4610.0,
           "adv_mfcfa": 0.0
@@ -834,29 +1111,54 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.058927,
-          "w_etf": 0.058927,
+          "w_brvm30": 0.013811,
+          "w_etf": 0.013811,
           "capped": false,
           "prix_rebal": 4975.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.002934,
-          "w_brvm30": 0.000926
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.010181,
+          "w_etf": 0.010181,
+          "capped": false,
+          "prix_rebal": 900.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.004046,
+          "w_etf": 0.004046,
+          "capped": false,
+          "prix_rebal": 2200.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002161,
-          "w_brvm30": 0.000682
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001267,
+          "w_etf": 0.001267,
+          "capped": false,
+          "prix_rebal": 1065.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001105,
+          "w_etf": 0.001105,
+          "capped": false,
+          "prix_rebal": 1040.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.019639,
-      "cost_bps": 0.2,
+      "n_basket": 13,
+      "turnover": 0.011986,
+      "cost_bps": 0.1,
       "date_label": "02 Jan. 2025"
     },
     {
@@ -864,6 +1166,15 @@
       "skipped": false,
       "basket": [
         {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.423727,
+          "w_etf": 0.423727,
+          "capped": false,
+          "prix_rebal": 14900.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "SNTS",
           "nom": "SONATEL",
           "w_brvm30": 0.35,
@@ -873,10 +1184,19 @@
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.041452,
+          "w_etf": 0.041452,
+          "capped": false,
+          "prix_rebal": 9950.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.142573,
-          "w_etf": 0.142573,
+          "w_brvm30": 0.041181,
+          "w_etf": 0.041181,
           "capped": false,
           "prix_rebal": 3465.0,
           "adv_mfcfa": 0.0
@@ -884,8 +1204,8 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.122208,
-          "w_etf": 0.122208,
+          "w_brvm30": 0.035298,
+          "w_etf": 0.035298,
           "capped": false,
           "prix_rebal": 2750.0,
           "adv_mfcfa": 0.0
@@ -893,8 +1213,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.094422,
-          "w_etf": 0.094422,
+          "w_brvm30": 0.027273,
+          "w_etf": 0.027273,
           "capped": false,
           "prix_rebal": 2580.0,
           "adv_mfcfa": 0.0
@@ -902,8 +1222,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.078418,
-          "w_etf": 0.078418,
+          "w_brvm30": 0.02265,
+          "w_etf": 0.02265,
           "capped": false,
           "prix_rebal": 4695.0,
           "adv_mfcfa": 0.0
@@ -911,53 +1231,78 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.076093,
-          "w_etf": 0.076093,
+          "w_brvm30": 0.021979,
+          "w_etf": 0.021979,
           "capped": false,
           "prix_rebal": 5390.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.072132,
-          "w_etf": 0.072132,
-          "capped": false,
-          "prix_rebal": 1590.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.064155,
-          "w_etf": 0.064155,
+          "w_brvm30": 0.018531,
+          "w_etf": 0.018531,
           "capped": false,
           "prix_rebal": 6350.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.002639,
-          "w_brvm30": 0.000864
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.011297,
+          "w_etf": 0.011297,
+          "capped": false,
+          "prix_rebal": 950.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.003865,
+          "w_etf": 0.003865,
+          "capped": false,
+          "prix_rebal": 2000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001498,
+          "w_etf": 0.001498,
+          "capped": false,
+          "prix_rebal": 1340.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.001875,
-          "w_brvm30": 0.000614
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.00125,
+          "w_etf": 0.00125,
+          "capped": false,
+          "prix_rebal": 1000.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.031084,
-      "cost_bps": 0.3,
+      "n_basket": 13,
+      "turnover": 0.049914,
+      "cost_bps": 0.5,
       "date_label": "01 Apr. 2025"
     },
     {
       "date": "2025-07-01",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.409674,
+          "w_etf": 0.409674,
+          "capped": false,
+          "prix_rebal": 15000.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -968,10 +1313,19 @@
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.044611,
+          "w_etf": 0.044611,
+          "capped": false,
+          "prix_rebal": 11150.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.109518,
-          "w_etf": 0.109518,
+          "w_brvm30": 0.033081,
+          "w_etf": 0.033081,
           "capped": false,
           "prix_rebal": 7140.0,
           "adv_mfcfa": 0.0
@@ -979,8 +1333,8 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.107536,
-          "w_etf": 0.107536,
+          "w_brvm30": 0.032483,
+          "w_etf": 0.032483,
           "capped": false,
           "prix_rebal": 2635.0,
           "adv_mfcfa": 0.0
@@ -988,8 +1342,8 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.105662,
-          "w_etf": 0.105662,
+          "w_brvm30": 0.031917,
+          "w_etf": 0.031917,
           "capped": false,
           "prix_rebal": 8150.0,
           "adv_mfcfa": 0.0
@@ -997,8 +1351,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.099946,
-          "w_etf": 0.099946,
+          "w_brvm30": 0.03019,
+          "w_etf": 0.03019,
           "capped": false,
           "prix_rebal": 2645.0,
           "adv_mfcfa": 0.0
@@ -1006,8 +1360,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.084859,
-          "w_etf": 0.084859,
+          "w_brvm30": 0.025633,
+          "w_etf": 0.025633,
           "capped": false,
           "prix_rebal": 2525.0,
           "adv_mfcfa": 0.0
@@ -1015,44 +1369,69 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.075615,
-          "w_etf": 0.075615,
+          "w_brvm30": 0.022841,
+          "w_etf": 0.022841,
           "capped": false,
           "prix_rebal": 8150.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.066864,
-          "w_etf": 0.066864,
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.012277,
+          "w_etf": 0.012277,
           "capped": false,
-          "prix_rebal": 1605.0,
+          "prix_rebal": 1075.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.0021,
-          "w_brvm30": 0.00064
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.004641,
+          "w_etf": 0.004641,
+          "capped": false,
+          "prix_rebal": 2500.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002104,
-          "w_brvm30": 0.000641
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.00138,
+          "w_etf": 0.00138,
+          "capped": false,
+          "prix_rebal": 1150.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001272,
+          "w_etf": 0.001272,
+          "capped": false,
+          "prix_rebal": 1185.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.072129,
-      "cost_bps": 0.7,
+      "n_basket": 13,
+      "turnover": 0.029726,
+      "cost_bps": 0.3,
       "date_label": "01 Jul. 2025"
     },
     {
       "date": "2025-10-01",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.401666,
+          "w_etf": 0.401666,
+          "capped": false,
+          "prix_rebal": 14800.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -1063,28 +1442,28 @@
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.051686,
+          "w_etf": 0.051686,
+          "capped": false,
+          "prix_rebal": 13000.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.112917,
-          "w_etf": 0.112917,
+          "w_brvm30": 0.036143,
+          "w_etf": 0.036143,
           "capped": false,
           "prix_rebal": 7850.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.105088,
-          "w_etf": 0.105088,
-          "capped": false,
-          "prix_rebal": 2690.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.103277,
-          "w_etf": 0.103277,
+          "w_brvm30": 0.033058,
+          "w_etf": 0.033058,
           "capped": false,
           "prix_rebal": 8495.0,
           "adv_mfcfa": 0.0
@@ -1092,8 +1471,8 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.091467,
-          "w_etf": 0.091467,
+          "w_brvm30": 0.029277,
+          "w_etf": 0.029277,
           "capped": false,
           "prix_rebal": 2390.0,
           "adv_mfcfa": 0.0
@@ -1101,8 +1480,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.08504,
-          "w_etf": 0.08504,
+          "w_brvm30": 0.02722,
+          "w_etf": 0.02722,
           "capped": false,
           "prix_rebal": 2400.0,
           "adv_mfcfa": 0.0
@@ -1110,8 +1489,8 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.079565,
-          "w_etf": 0.079565,
+          "w_brvm30": 0.025468,
+          "w_etf": 0.025468,
           "capped": false,
           "prix_rebal": 9145.0,
           "adv_mfcfa": 0.0
@@ -1119,35 +1498,69 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.072645,
-          "w_etf": 0.072645,
+          "w_brvm30": 0.023253,
+          "w_etf": 0.023253,
           "capped": false,
           "prix_rebal": 2305.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.00225,
-          "w_brvm30": 0.000673
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.014016,
+          "w_etf": 0.014016,
+          "capped": false,
+          "prix_rebal": 1235.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.004649,
+          "w_etf": 0.004649,
+          "capped": false,
+          "prix_rebal": 2520.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002989,
-          "w_brvm30": 0.000894
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.002016,
+          "w_etf": 0.002016,
+          "capped": false,
+          "prix_rebal": 1690.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.001547,
+          "w_etf": 0.001547,
+          "capped": false,
+          "prix_rebal": 1450.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.045574,
-      "cost_bps": 0.5,
+      "n_basket": 13,
+      "turnover": 0.016563,
+      "cost_bps": 0.2,
       "date_label": "01 Oct. 2025"
     },
     {
       "date": "2026-01-02",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.398796,
+          "w_etf": 0.398796,
+          "capped": false,
+          "prix_rebal": 14055.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -1158,28 +1571,28 @@
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.045702,
+          "w_etf": 0.045702,
+          "capped": false,
+          "prix_rebal": 10995.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.115921,
-          "w_etf": 0.115921,
+          "w_brvm30": 0.037304,
+          "w_etf": 0.037304,
           "capped": false,
           "prix_rebal": 7750.0,
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.10095,
-          "w_etf": 0.10095,
-          "capped": false,
-          "prix_rebal": 2485.0,
-          "adv_mfcfa": 0.0
-        },
-        {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.098548,
-          "w_etf": 0.098548,
+          "w_brvm30": 0.031714,
+          "w_etf": 0.031714,
           "capped": false,
           "prix_rebal": 7795.0,
           "adv_mfcfa": 0.0
@@ -1187,8 +1600,8 @@
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.097499,
-          "w_etf": 0.097499,
+          "w_brvm30": 0.031376,
+          "w_etf": 0.031376,
           "capped": false,
           "prix_rebal": 2450.0,
           "adv_mfcfa": 0.0
@@ -1196,8 +1609,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.086041,
-          "w_etf": 0.086041,
+          "w_brvm30": 0.027689,
+          "w_etf": 0.027689,
           "capped": false,
           "prix_rebal": 2335.0,
           "adv_mfcfa": 0.0
@@ -1205,8 +1618,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.078657,
-          "w_etf": 0.078657,
+          "w_brvm30": 0.025312,
+          "w_etf": 0.025312,
           "capped": false,
           "prix_rebal": 2400.0,
           "adv_mfcfa": 0.0
@@ -1214,35 +1627,69 @@
         {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.072384,
-          "w_etf": 0.072384,
+          "w_brvm30": 0.023294,
+          "w_etf": 0.023294,
           "capped": false,
           "prix_rebal": 8000.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.003796,
-          "w_brvm30": 0.001067
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.017027,
+          "w_etf": 0.017027,
+          "capped": false,
+          "prix_rebal": 1435.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.007464,
+          "w_etf": 0.007464,
+          "capped": false,
+          "prix_rebal": 3870.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.002619,
+          "w_etf": 0.002619,
+          "capped": false,
+          "prix_rebal": 2350.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002423,
-          "w_brvm30": 0.000681
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001703,
+          "w_etf": 0.001703,
+          "capped": false,
+          "prix_rebal": 1365.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.016048,
-      "cost_bps": 0.2,
+      "n_basket": 13,
+      "turnover": 0.012686,
+      "cost_bps": 0.1,
       "date_label": "02 Jan. 2026"
     },
     {
       "date": "2026-04-01",
       "skipped": false,
       "basket": [
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.389808,
+          "w_etf": 0.389808,
+          "capped": false,
+          "prix_rebal": 15200.0,
+          "adv_mfcfa": 0.0
+        },
         {
           "ticker": "SNTS",
           "nom": "SONATEL",
@@ -1253,19 +1700,19 @@
           "adv_mfcfa": 0.0
         },
         {
-          "ticker": "ORGT",
-          "nom": "ORANGE CI",
-          "w_brvm30": 0.128321,
-          "w_etf": 0.128321,
+          "ticker": "NTLC",
+          "nom": "NESTLE CI",
+          "w_brvm30": 0.046962,
+          "w_etf": 0.046962,
           "capped": false,
-          "prix_rebal": 3660.0,
+          "prix_rebal": 12500.0,
           "adv_mfcfa": 0.0
         },
         {
           "ticker": "ONTBF",
           "nom": "ONATEL BF",
-          "w_brvm30": 0.100974,
-          "w_etf": 0.100974,
+          "w_brvm30": 0.03403,
+          "w_etf": 0.03403,
           "capped": false,
           "prix_rebal": 2940.0,
           "adv_mfcfa": 0.0
@@ -1273,8 +1720,8 @@
         {
           "ticker": "CIEC",
           "nom": "CIE CI",
-          "w_brvm30": 0.096167,
-          "w_etf": 0.096167,
+          "w_brvm30": 0.03241,
+          "w_etf": 0.03241,
           "capped": false,
           "prix_rebal": 3400.0,
           "adv_mfcfa": 0.0
@@ -1282,8 +1729,8 @@
         {
           "ticker": "SPHC",
           "nom": "SAPH CI",
-          "w_brvm30": 0.089848,
-          "w_etf": 0.089848,
+          "w_brvm30": 0.030281,
+          "w_etf": 0.030281,
           "capped": false,
           "prix_rebal": 6960.0,
           "adv_mfcfa": 0.0
@@ -1291,8 +1738,8 @@
         {
           "ticker": "TTLC",
           "nom": "TOTAL CI",
-          "w_brvm30": 0.086497,
-          "w_etf": 0.086497,
+          "w_brvm30": 0.029151,
+          "w_etf": 0.029151,
           "capped": false,
           "prix_rebal": 2720.0,
           "adv_mfcfa": 0.0
@@ -1300,38 +1747,63 @@
         {
           "ticker": "SOGC",
           "nom": "SOGB CI",
-          "w_brvm30": 0.085104,
-          "w_etf": 0.085104,
+          "w_brvm30": 0.028682,
+          "w_etf": 0.028682,
           "capped": false,
           "prix_rebal": 7800.0,
           "adv_mfcfa": 0.0
         },
         {
+          "ticker": "SHEC",
+          "nom": "VIVO ENERGY CI",
+          "w_brvm30": 0.023433,
+          "w_etf": 0.023433,
+          "capped": false,
+          "prix_rebal": 2185.0,
+          "adv_mfcfa": 0.0
+        },
+        {
           "ticker": "PALC",
           "nom": "PALMINDUSTRIE CI",
-          "w_brvm30": 0.06309,
-          "w_etf": 0.06309,
+          "w_brvm30": 0.021263,
+          "w_etf": 0.021263,
           "capped": false,
           "prix_rebal": 8080.0,
           "adv_mfcfa": 0.0
-        }
-      ],
-      "excluded": [
+        },
         {
-          "ticker": "NEIC",
-          "w_halal": 0.004254,
-          "w_brvm30": 0.001138
+          "ticker": "PRSC",
+          "nom": "TRACTAFRIC MOTORS CI",
+          "w_brvm30": 0.008506,
+          "w_etf": 0.008506,
+          "capped": false,
+          "prix_rebal": 4880.0,
+          "adv_mfcfa": 0.0
+        },
+        {
+          "ticker": "CABC",
+          "nom": "SICABLE CI",
+          "w_brvm30": 0.003683,
+          "w_etf": 0.003683,
+          "capped": false,
+          "prix_rebal": 3655.0,
+          "adv_mfcfa": 0.0
         },
         {
           "ticker": "BNBC",
-          "w_halal": 0.002497,
-          "w_brvm30": 0.000668
+          "nom": "BERNABE CI",
+          "w_brvm30": 0.001792,
+          "w_etf": 0.001792,
+          "capped": false,
+          "prix_rebal": 1590.0,
+          "adv_mfcfa": 0.0
         }
       ],
+      "excluded": [],
       "cap_snts": 35.0,
-      "n_basket": 8,
-      "turnover": 0.048812,
-      "cost_bps": 0.5,
+      "n_basket": 13,
+      "turnover": 0.021074,
+      "cost_bps": 0.2,
       "date_label": "01 Apr. 2026"
     }
   ],

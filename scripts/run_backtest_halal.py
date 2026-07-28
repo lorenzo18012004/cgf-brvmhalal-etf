@@ -22,22 +22,25 @@ DATA_DIR   = os.path.join(ROOT_DIR, "data")
 BRVMC_DIR  = os.path.normpath(os.path.join(ROOT_DIR, "..", "test_BRVMC", "data"))
 
 # ── Paramètres ────────────────────────────────────────────────────────────── #
-HALAL_TICKERS  = ["SNTS", "ORGT", "ONTBF", "CIEC", "SPHC", "TTLC", "SOGC", "PALC", "NEIC", "BNBC"]
+HALAL_TICKERS  = ["SNTS", "ORAC", "ONTBF", "CIEC", "SPHC", "TTLC", "SOGC", "PALC", "BNBC", "PRSC", "SHEC", "CABC", "NTLC"]
 TICKER_NAMES   = {
     "SNTS":  "SONATEL",
-    "ORGT":  "ORANGE CI",
+    "ORAC":  "ORANGE CI",
     "ONTBF": "ONATEL BF",
     "CIEC":  "CIE CI",
     "SPHC":  "SAPH CI",
     "TTLC":  "TOTAL CI",
     "SOGC":  "SOGB CI",
     "PALC":  "PALMINDUSTRIE CI",
-    "NEIC":  "NESTLE CI",
     "BNBC":  "BERNABE CI",
+    "PRSC":  "TRACTAFRIC MOTORS CI",
+    "SHEC":  "VIVO ENERGY CI",
+    "CABC":  "SICABLE CI",
+    "NTLC":  "NESTLE CI",
 }
 
 CAP_SNTS       = 0.35     # 35 % max pour SONATEL
-MIN_HALAL_W    = 0.005    # 0.5 % min poids dans le sous-indice halal
+MIN_HALAL_W    = 0.001    # 0.1 % min poids (abaissé pour inclure BNBC et CABC)
 MGMT_FEE_ANN   = 0.006   # 0.6 %/an
 SPREAD_COST    = 0.001    # 0.1 % aller-retour par rebalancement
 CASH_BUFFER    = 0.01     # 1 % cash
@@ -589,12 +592,9 @@ def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series):
     }
 
     nav_path = os.path.join(DATA_DIR, "nav_latest.json")
-    if not os.path.exists(nav_path):
-        with open(nav_path, "w", encoding="utf-8") as f:
-            json.dump(nl, f, ensure_ascii=False, indent=2)
-        print(f"[OK] nav_latest.json initialisé (basket {len(basket)} titres, nav={nav_last:.2f})")
-    else:
-        print(f"[INFO] nav_latest.json déjà existant — non écrasé")
+    with open(nav_path, "w", encoding="utf-8") as f:
+        json.dump(nl, f, ensure_ascii=False, indent=2)
+    print(f"[OK] nav_latest.json mis à jour (basket {len(basket)} titres, nav={nav_last:.2f})")
 
 
 if __name__ == "__main__":
