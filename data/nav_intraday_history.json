@@ -1,1 +1,14 @@
-{}
+{
+  "2026-07-28": [
+    {
+      "time": "10:31",
+      "vl": 99524.0,
+      "nav_indice": 1917.3155,
+      "perf_since_launch": -0.4757,
+      "change_1d_pct": -0.4757,
+      "change_day_pct": 0.0,
+      "aum_mfcfa": 2488.1,
+      "n_prices": 8
+    }
+  ]
+}
