@@ -3855,8 +3855,8 @@ def _render_live():
                         "_capped":         _capped_live.get(r["ticker"], False),
                         "Clôture":         f"{int(last):,}" if last else "—",
                         "Var. J (%)":      var_j,
-                        "Val. (M FCFA)":   round(r["pv_mfcfa"], 1),
-                        "Stale":           "" if r["prix_stale"] else "",
+                        "Val. (M FCFA)":   round(r.get("pv_mfcfa") or 0, 1),
+                        "Stale":           "" if r.get("prix_stale", False) else "",
                     })
 
                 df_out = pd.DataFrame(rows)

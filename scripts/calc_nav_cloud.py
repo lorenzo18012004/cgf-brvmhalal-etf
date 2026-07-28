@@ -130,7 +130,13 @@ class NavCalculatorCloud(BaseScript):
         for item in nl["basket"]:
             tk = item["ticker"]
             if tk in latest_prices:
-                item["dernier_prix"] = latest_prices[tk]
+                item["dernier_prix"]    = latest_prices[tk]
+                item["last_price_date"] = today_str
+            item["pv_mfcfa"]   = round((item["poids_pct"] / 100) * aum, 1)
+            item["prix_stale"] = item.get("last_price_date", "") < today_str
+            item.setdefault("w_brvm30",   round(item["poids_pct"] / 100, 6))
+            item.setdefault("adv_mfcfa",  None)
+            item.setdefault("force_otc",  False)
 
         self.save_json_path(self.NAV_PATH, nl)
 

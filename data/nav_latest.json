@@ -14,49 +14,89 @@
       "ticker": "SNTS",
       "poids_pct": 35.0,
       "dernier_prix": 31495.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 875.0,
+      "prix_stale": true,
+      "w_brvm30": 0.35,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "ORGT",
       "poids_pct": 12.8321,
       "dernier_prix": 2680.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 320.8,
+      "prix_stale": true,
+      "w_brvm30": 0.128321,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "ONTBF",
       "poids_pct": 10.0974,
       "dernier_prix": 2800.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 252.4,
+      "prix_stale": true,
+      "w_brvm30": 0.100974,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "CIEC",
       "poids_pct": 9.6167,
       "dernier_prix": 5390.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 240.4,
+      "prix_stale": true,
+      "w_brvm30": 0.096167,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "SPHC",
       "poids_pct": 8.9848,
       "dernier_prix": 7500.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 224.6,
+      "prix_stale": true,
+      "w_brvm30": 0.089848,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "TTLC",
       "poids_pct": 8.6497,
       "dernier_prix": 2995.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 216.2,
+      "prix_stale": true,
+      "w_brvm30": 0.086497,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "SOGC",
       "poids_pct": 8.5104,
       "dernier_prix": 8215.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 212.8,
+      "prix_stale": true,
+      "w_brvm30": 0.085104,
+      "adv_mfcfa": null,
+      "force_otc": false
     },
     {
       "ticker": "PALC",
       "poids_pct": 6.309,
       "dernier_prix": 8850.0,
-      "last_price_date": "2026-07-24"
+      "last_price_date": "2026-07-24",
+      "pv_mfcfa": 157.7,
+      "prix_stale": true,
+      "w_brvm30": 0.06309,
+      "adv_mfcfa": null,
+      "force_otc": false
     }
   ],
   "nav_live_series": [
