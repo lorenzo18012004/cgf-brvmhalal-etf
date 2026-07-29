@@ -1,11 +1,11 @@
 {
-  "calc_date": "2026-07-28",
-  "launched": true,
+  "calc_date": null,
+  "launched": false,
   "nav_indice": 1734.0367,
-  "vl_par_part_fcfa": 85393.0,
+  "vl_par_part_fcfa": 100000,
   "aum_mfcfa": 2134.8,
-  "perf_since_launch": -14.6071,
-  "change_day_pct": -0.0,
+  "perf_since_launch": 0.0,
+  "change_day_pct": 0.0,
   "n_parts": 25000,
   "par_fcfa": 100000,
   "source": "cloud_fallback_sika",
@@ -3862,5 +3862,6 @@
   "vol_ann_pct": 11.2,
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-04-01",
-  "n_live_prices": 13
+  "n_live_prices": 13,
+  "last_rebal_date": "2026-07-28"
 }

@@ -5,3 +5,6 @@ lxml
 pandas
 numpy
 plotly
+openpyxl
+reportlab
+matplotlib
