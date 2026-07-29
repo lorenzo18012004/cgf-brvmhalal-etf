@@ -154,12 +154,7 @@
       "force_otc": false
     }
   ],
-  "nav_live_series": [
-    [
-      "2026-07-28",
-      99479.0
-    ]
-  ],
+  "nav_live_series": [],
   "nav_series": [
     [
       "2023-01-02",
@@ -3863,5 +3858,5 @@
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-04-01",
   "n_live_prices": 13,
-  "last_rebal_date": "2026-07-28"
+  "last_rebal_date": "2026-07-29"
 }
