@@ -1168,6 +1168,152 @@
           "gap_contrib_pct": 0.0
         }
       }
+    },
+    {
+      "time": "10:41",
+      "nav_indice": 1750.2143,
+      "halal_official": 1750.2143,
+      "vl_par_part": 100292.0,
+      "vl_live_fcfa": 100292.0,
+      "perf_since_launch": 0.2923,
+      "change_1d_pct": 0.9354,
+      "change_day_pct": 0.2923,
+      "aum_mfcfa": 2507.3,
+      "n_prices": 13,
+      "prices_by_ticker": {
+        "SNTS": 31295.0,
+        "ORAC": 16725.0,
+        "NTLC": 16600.0,
+        "ONTBF": 2790.0,
+        "CIEC": 5350.0,
+        "SPHC": 7500.0,
+        "TTLC": 2995.0,
+        "SOGC": 8400.0,
+        "SHEC": 2160.0,
+        "PALC": 8800.0,
+        "PRSC": 4535.0,
+        "CABC": 3795.0,
+        "BNBC": 1875.0
+      },
+      "ticker_contributions": {
+        "SNTS": {
+          "w_pct": 29.4347,
+          "w_brvm30_pct": 29.4347,
+          "prix_prev": 31495.0,
+          "prix_now": 31295.0,
+          "ret_pct": -0.635,
+          "contrib_pct": -0.1869,
+          "gap_contrib_pct": 0.0
+        },
+        "ORAC": {
+          "w_pct": 28.886,
+          "w_brvm30_pct": 28.886,
+          "prix_prev": 16200.0,
+          "prix_now": 16725.0,
+          "ret_pct": 3.241,
+          "contrib_pct": 0.9361,
+          "gap_contrib_pct": 0.0
+        },
+        "NTLC": {
+          "w_pct": 8.5574,
+          "w_brvm30_pct": 8.5574,
+          "prix_prev": 16400.0,
+          "prix_now": 16600.0,
+          "ret_pct": 1.22,
+          "contrib_pct": 0.1044,
+          "gap_contrib_pct": 0.0
+        },
+        "ONTBF": {
+          "w_pct": 4.5013,
+          "w_brvm30_pct": 4.5013,
+          "prix_prev": 2800.0,
+          "prix_now": 2790.0,
+          "ret_pct": -0.357,
+          "contrib_pct": -0.0161,
+          "gap_contrib_pct": 0.0
+        },
+        "CIEC": {
+          "w_pct": 7.1359,
+          "w_brvm30_pct": 7.1359,
+          "prix_prev": 5390.0,
+          "prix_now": 5350.0,
+          "ret_pct": -0.742,
+          "contrib_pct": -0.053,
+          "gap_contrib_pct": 0.0
+        },
+        "SPHC": {
+          "w_pct": 4.5318,
+          "w_brvm30_pct": 4.5318,
+          "prix_prev": 7500.0,
+          "prix_now": 7500.0,
+          "ret_pct": 0.0,
+          "contrib_pct": 0.0,
+          "gap_contrib_pct": 0.0
+        },
+        "TTLC": {
+          "w_pct": 4.458,
+          "w_brvm30_pct": 4.458,
+          "prix_prev": 2995.0,
+          "prix_now": 2995.0,
+          "ret_pct": 0.0,
+          "contrib_pct": 0.0,
+          "gap_contrib_pct": 0.0
+        },
+        "SOGC": {
+          "w_pct": 4.1954,
+          "w_brvm30_pct": 4.1954,
+          "prix_prev": 8215.0,
+          "prix_now": 8400.0,
+          "ret_pct": 2.252,
+          "contrib_pct": 0.0945,
+          "gap_contrib_pct": 0.0
+        },
+        "SHEC": {
+          "w_pct": 3.1353,
+          "w_brvm30_pct": 3.1353,
+          "prix_prev": 2105.0,
+          "prix_now": 2160.0,
+          "ret_pct": 2.613,
+          "contrib_pct": 0.0819,
+          "gap_contrib_pct": 0.0
+        },
+        "PALC": {
+          "w_pct": 3.2345,
+          "w_brvm30_pct": 3.2345,
+          "prix_prev": 8850.0,
+          "prix_now": 8800.0,
+          "ret_pct": -0.565,
+          "contrib_pct": -0.0183,
+          "gap_contrib_pct": 0.0
+        },
+        "PRSC": {
+          "w_pct": 1.1075,
+          "w_brvm30_pct": 1.1075,
+          "prix_prev": 4575.0,
+          "prix_now": 4535.0,
+          "ret_pct": -0.874,
+          "contrib_pct": -0.0097,
+          "gap_contrib_pct": 0.0
+        },
+        "CABC": {
+          "w_pct": 0.5248,
+          "w_brvm30_pct": 0.5248,
+          "prix_prev": 3750.0,
+          "prix_now": 3795.0,
+          "ret_pct": 1.2,
+          "contrib_pct": 0.0063,
+          "gap_contrib_pct": 0.0
+        },
+        "BNBC": {
+          "w_pct": 0.2974,
+          "w_brvm30_pct": 0.2974,
+          "prix_prev": 1900.0,
+          "prix_now": 1875.0,
+          "ret_pct": -1.316,
+          "contrib_pct": -0.0039,
+          "gap_contrib_pct": 0.0
+        }
+      }
     }
   ],
   "open_nav": 1745.1125
