@@ -1,10 +1,10 @@
 {
   "calc_date": "2026-07-31",
-  "launched": true,
+  "launched": false,
   "nav_indice": 1733.9125,
-  "vl_par_part_fcfa": 99358.0,
-  "aum_mfcfa": 2484.0,
-  "perf_since_launch": -0.6418,
+  "vl_par_part_fcfa": 100000,
+  "aum_mfcfa": 2500.0,
+  "perf_since_launch": null,
   "change_day_pct": -0.0,
   "n_parts": 25000,
   "par_fcfa": 100000,
@@ -3871,5 +3871,9 @@
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-04-01",
   "n_live_prices": 13,
-  "last_rebal_date": "2026-07-29"
+  "last_rebal_date": "2026-07-29",
+  "launch_date": null,
+  "perf_ytd": null,
+  "perf_3m": null,
+  "perf_1y": null
 }
