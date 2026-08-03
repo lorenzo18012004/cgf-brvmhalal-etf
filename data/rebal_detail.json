@@ -1791,10 +1791,75 @@
       "n_basket": 13,
       "turnover": 0.024234,
       "cost_bps": 8.5
+    },
+    {
+      "date": "2026-07-29",
+      "skipped": false,
+      "basket": [
+        {
+          "ticker": "SNTS",
+          "nom": "SONATEL",
+          "w_brvm30": 0.3,
+          "w_etf": 0.383721,
+          "capped": true,
+          "prix_rebal": 31495,
+          "adv_mfcfa": 239.83
+        },
+        {
+          "ticker": "ORAC",
+          "nom": "ORANGE CI",
+          "w_brvm30": 0.3,
+          "w_etf": 0.235155,
+          "capped": true,
+          "prix_rebal": 16200,
+          "adv_mfcfa": 59.33
+        },
+        {
+          "ticker": "CIEC",
+          "nom": "CIE CI",
+          "w_brvm30": 0.137047,
+          "w_etf": 0.117027,
+          "capped": true,
+          "prix_rebal": 5390,
+          "adv_mfcfa": 29.53
+        },
+        {
+          "ticker": "SOGC",
+          "nom": "SOGB CI",
+          "w_brvm30": 0.084381,
+          "w_etf": 0.10821,
+          "capped": true,
+          "prix_rebal": 8215,
+          "adv_mfcfa": 27.3
+        },
+        {
+          "ticker": "TTLC",
+          "nom": "TOTAL CI",
+          "w_brvm30": 0.088602,
+          "w_etf": 0.08988,
+          "capped": true,
+          "prix_rebal": 2995,
+          "adv_mfcfa": 22.68
+        },
+        {
+          "ticker": "SPHC",
+          "nom": "SAPH CI",
+          "w_brvm30": 0.08997,
+          "w_etf": 0.066007,
+          "capped": true,
+          "prix_rebal": 7500,
+          "adv_mfcfa": 16.65
+        }
+      ],
+      "excluded": [],
+      "cap_snts": 30.0,
+      "n_basket": 6,
+      "turnover": 0.0,
+      "cost_bps": 0.0
     }
   ],
   "metadata": {
-    "generated_at": "2026-07-28",
+    "generated_at": "2026-08-03",
     "aum_start_mfcfa": 2500.0,
     "cap_snts_pct": 30.0,
     "mgmt_fee_ann": 0.006,

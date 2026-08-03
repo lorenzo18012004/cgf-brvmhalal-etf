@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-08-03",
   "backtest_start": "2023-01-02",
   "backtest_end": "2026-07-24",
   "metrics_indice": {
@@ -23,7 +23,7 @@
   "tracking_difference_ann_pct": -0.86,
   "tracking_error_ann_pct": 0.13,
   "total_turnover_rebal": 0.2611,
-  "avg_turnover_per_rebal_pct": 1.86,
+  "avg_turnover_per_rebal_pct": 1.74,
   "perf_by_year": {
     "2023": {
       "etf_pct": -5.84,
