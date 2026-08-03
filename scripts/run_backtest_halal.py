@@ -553,12 +553,12 @@ def main():
     print("[OK] validation_results.json sauvegarde")
 
     # ── Initialiser nav_latest.json ───────────────────────────────────────── #
-    _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf, m_etf)
+    _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf, m_etf, nav_idx)
 
     print("\n[DONE] Backtest termine.")
 
 
-def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series, metrics_etf=None):
+def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series, metrics_etf=None, nav_index_series=None):
     """Initialise nav_latest.json avec le dernier rebalancement."""
     if not rebal_dates or not w_etf_history:
         return
@@ -612,10 +612,11 @@ def _init_nav_latest(w_etf_history, sika_history, rebal_dates, nav_etf_series, m
         "basket":              basket,
         "nav_live_series":     nav_live_series[-500:],
         "nav_series":          nav_series,
-        "perf_backtest_total": round(metrics_etf.get("perf_total_pct", 0), 2) if metrics_etf else None,
-        "vol_ann_pct":         round(metrics_etf.get("vol_ann_pct",    0), 2) if metrics_etf else None,
-        "max_drawdown_pct":    round(metrics_etf.get("max_drawdown_pct", 0), 2) if metrics_etf else None,
-        "rebal_date":          last_rd,
+        "perf_backtest_total":  round(metrics_etf.get("perf_total_pct", 0), 2) if metrics_etf else None,
+        "vol_ann_pct":          round(metrics_etf.get("vol_ann_pct",    0), 2) if metrics_etf else None,
+        "max_drawdown_pct":     round(metrics_etf.get("max_drawdown_pct", 0), 2) if metrics_etf else None,
+        "rebal_date":           last_rd,
+        "nav_indice_reference": round(nav_index_series[last_date], 4) if nav_index_series and last_date in nav_index_series else None,
     }
 
     nav_path = os.path.join(DATA_DIR, "nav_latest.json")
