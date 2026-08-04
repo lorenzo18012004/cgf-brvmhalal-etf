@@ -162,6 +162,21 @@ def compute_halal_weights(brvmc_raw_w, adv_map, aum_mfcfa):
     if tot_etf > 0:
         w_etf = {tk: w / tot_etf for tk, w in w_etf.items()}
 
+    # Re-appliquer le cap universel après cap ADV (le cap ADV peut redistribuer vers SNTS)
+    for _ in range(20):
+        capped = {tk for tk, w in w_etf.items() if w > CAP_SNTS}
+        if not capped:
+            break
+        overflow = sum(w - CAP_SNTS for tk, w in w_etf.items() if tk in capped)
+        for tk in capped:
+            w_etf[tk] = CAP_SNTS
+        free = {tk: w for tk, w in w_etf.items() if tk not in capped}
+        tot_free = sum(free.values())
+        if tot_free <= 0:
+            break
+        for tk in free:
+            w_etf[tk] += overflow * free[tk] / tot_free
+
     excluded_out = [
         {"ticker": tk, "w_halal": round(w, 6), "w_brvm30": round(brvmc_raw_w.get(tk, 0.0), 6)}
         for tk, w in excluded_tickers.items()
