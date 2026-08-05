@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-08-05T17:51:56.999500+00:00",
+  "dividend_receivable_fcfa": 18802736.0,
+  "distribution_payable_fcfa": 18802736.0,
+  "poche_distribution_fcfa": 0.0,
+  "evenements": [
+    {
+      "id": "SOGC_2026-08-05",
+      "ticker": "SOGC",
+      "nom": "SOGB",
+      "ex_date": "2026-08-05",
+      "montant_par_action_fcfa": 570.0,
+      "nb_titres_etf": 32987.0,
+      "montant_total_fcfa": 18802736.0,
+      "montant_par_part_fcfa": 752.1094,
+      "payment_date": null,
+      "distribution_date": "N/A",
+      "status": "accrued",
+      "journal": [
+        {
+          "date": "2026-08-05",
+          "type": "ACCRUAL",
+          "debit": "Dividend_Receivable",
+          "credit": "Distribution_Payable",
+          "montant_fcfa": 18802736.0,
+          "note": "Provisionnement ex-date SOGC — 570.00 FCFA/action"
+        }
+      ]
+    }
+  ]
+}
