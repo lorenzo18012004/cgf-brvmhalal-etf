@@ -41,7 +41,7 @@ TICKER_NAMES   = {
 
 CAP_SNTS       = 0.30     # 30 % max pour tout titre (cap universel)
 MIN_HALAL_W    = 0.001    # 0.1 % min poids (abaissé pour inclure BNBC et CABC)
-MGMT_FEE_ANN   = 0.006   # 0.6 %/an
+MGMT_FEE_ANN   = 0.008   # 0.8 %/an
 CASH_BUFFER    = 0.01     # 1 % cash
 AUM_START_MFCFA= 2500.0  # 2.5 Md FCFA
 ADV_DAYS       = 63       # fenêtre ADV
