@@ -1,11 +1,11 @@
 {
-  "calc_date": "2026-08-06",
+  "calc_date": "2026-08-07",
   "launched": true,
-  "nav_indice": 1714.5319,
-  "vl_par_part_fcfa": 99051.0,
-  "aum_mfcfa": 2476.3,
-  "perf_since_launch": -0.9488,
-  "change_day_pct": -1.1177,
+  "nav_indice": 1714.4892,
+  "vl_par_part_fcfa": 99049.0,
+  "aum_mfcfa": 2476.2,
+  "perf_since_launch": -0.9512,
+  "change_day_pct": -0.0001,
   "n_parts": 25000,
   "par_fcfa": 100000,
   "source": "cloud_fallback_sika",
@@ -14,7 +14,7 @@
       "ticker": "SNTS",
       "poids_pct": 37.2102,
       "dernier_prix": 30200.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 921.4,
       "prix_stale": false,
       "w_brvm30": 0.383721,
@@ -25,7 +25,7 @@
       "ticker": "ORAC",
       "poids_pct": 25.2126,
       "dernier_prix": 17175.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 624.3,
       "prix_stale": false,
       "w_brvm30": 0.235155,
@@ -36,7 +36,7 @@
       "ticker": "CIEC",
       "poids_pct": 10.9786,
       "dernier_prix": 5000.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 271.9,
       "prix_stale": false,
       "w_brvm30": 0.117027,
@@ -47,7 +47,7 @@
       "ticker": "SOGC",
       "poids_pct": 10.7901,
       "dernier_prix": 8100.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 267.2,
       "prix_stale": false,
       "w_brvm30": 0.10821,
@@ -58,7 +58,7 @@
       "ticker": "TTLC",
       "poids_pct": 9.0441,
       "dernier_prix": 2980.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 224.0,
       "prix_stale": false,
       "w_brvm30": 0.08988,
@@ -69,7 +69,7 @@
       "ticker": "SPHC",
       "poids_pct": 6.7643,
       "dernier_prix": 7600.0,
-      "last_price_date": "2026-08-06",
+      "last_price_date": "2026-08-07",
       "pv_mfcfa": 167.5,
       "prix_stale": false,
       "w_brvm30": 0.066007,
@@ -2093,6 +2093,10 @@
     [
       "2026-08-06",
       99051.0
+    ],
+    [
+      "2026-08-07",
+      99049.0
     ]
   ],
   "nav_series": [
@@ -5797,6 +5801,6 @@
   "vol_ann_pct": 11.2,
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-07-29",
-  "nav_indice_reference": 1761.5419,
+  "nav_indice_reference": 1761.5401,
   "n_live_prices": 6
 }
