@@ -929,7 +929,7 @@ def _build_excel_complet(_cache_key = ""):
                 lp = _pts[-1]
                 _ih_lookup[_d] = {
                     "NAV_indice":        lp.get("nav_indice"),
-                    "halal_officiel":    lp.get("halal_official"),
+                    "halal_officiel":    lp.get("halal_index"),
                     "Perf_lancement_%":  lp.get("perf_since_launch"),
                     "Var_1j_%":          lp.get("change_1d_pct"),
                     "AUM_MFCFA":         lp.get("aum_mfcfa"),
@@ -2685,12 +2685,12 @@ def _render_live():
             # ── Calcul TE / TD / MDD live (avant bandeau) ────────────────────
             import numpy as _np
             _brvm30_hist_te      = load_json(os.path.join(HALAL_DIR, "brvm30_index_history.json")) or {}
-            _halal_idx_at_launch_te = float(_brvm30_hist_te[launch_date]) if launch_date and launch_date in _brvm30_hist_te else None
+            _halal_idx_at_launch_te = float(_brvm30_hist_te[launch_date]) if launch_date and launch_date in _brvm30_hist_te else (launch or {}).get("brvmhalal_index_at_launch")
             _brvm30_now = None
             if _brvm30_hist_te:
                 _te_snaps_early = (intraday or {}).get("snapshots", [])
                 if _te_snaps_early:
-                    _brvm30_now = _te_snaps_early[-1].get("halal_official")
+                    _brvm30_now = _te_snaps_early[-1].get("halal_index")
                 if not _brvm30_now:
                     _brvm30_now = _brvm30_hist_te.get(today_str)
                 if not _brvm30_now:
@@ -2705,7 +2705,7 @@ def _render_live():
                 if _pts and pd.Timestamp(_d) >= _launch_ts_te:
                     _lp = _pts[-1]
                     _vl = _lp.get("vl_fcfa") or _lp.get("vl")
-                    _bv = _lp.get("halal_official")
+                    _bv = _lp.get("halal_index")
                     if _vl: _closes_etf[_d] = float(_vl)
                     # Utiliser l'Indice Halal du même snapshot que le VL (pas le lendemain matin)
                     if _bv:
@@ -2716,7 +2716,7 @@ def _render_live():
             if _te_snaps:
                 _ls = _te_snaps[-1]
                 _vl_now = _ls.get("vl_live_fcfa") or _ls.get("vl_par_part", 0)
-                _bv_now = _ls.get("halal_official")
+                _bv_now = _ls.get("halal_index")
                 if _vl_now: _closes_etf[today_str] = float(_vl_now)
                 if _bv_now: _closes_idx[today_str] = float(_bv_now)
 
@@ -2952,7 +2952,7 @@ def _render_live():
                     if _v:
                         _halal_idx_at_launch = float(_v)
                 if not _halal_idx_at_launch:
-                    _halal_idx_at_launch = (launch or {}).get("brvm30_index_at_launch")
+                    _halal_idx_at_launch = (launch or {}).get("brvmhalal_index_at_launch")
 
                 # Construire série : dernier point par session >= launch_date uniquement
                 _launch_ts = pd.Timestamp(launch_date) if launch_date else pd.Timestamp("1900-01-01")
@@ -3057,12 +3057,12 @@ def _render_live():
                         if _dt in _idx_pts or _dt <= _t0 or _dt.weekday() >= 5 or not _snaps:
                             continue
                         for _s in reversed(_snaps):
-                            _v = _s.get("halal_official")
+                            _v = _s.get("halal_index")
                             if _v:
                                 _idx_pts[_dt] = float(_v) / _halal_idx_at_launch * 100
                                 break
                     if intra_snaps:
-                        _bv_live = intra_snaps[-1].get("halal_official")
+                        _bv_live = intra_snaps[-1].get("halal_index")
                         _dt = pd.Timestamp(intra_date).normalize()
                         if _bv_live and _dt > _t0:
                             _idx_pts[_dt] = float(_bv_live) / _halal_idx_at_launch * 100
@@ -3128,7 +3128,7 @@ def _render_live():
                         if _dt in _raw_ni or _dt < _t0 or _dt.weekday() >= 5 or not _snaps:
                             continue
                         for _s in reversed(_snaps):
-                            _v = _s.get("halal_official")
+                            _v = _s.get("halal_index")
                             if _v:
                                 _raw_ni[_dt] = float(_v)
                                 break
@@ -3143,7 +3143,7 @@ def _render_live():
                         _dt2 = pd.Timestamp(intra_date).normalize()
                         if _dt2 > _t0:
                             _v2 = _ls2.get("vl_live_fcfa") or (_ls2.get("nav_indice", 0) / nav_anch * par)
-                            _n2 = _ls2.get("halal_official")   # indice officiel Halal, pas nav_indice
+                            _n2 = _ls2.get("halal_index")   # indice officiel Halal, pas nav_indice
                             if _v2: _raw_vl[_dt2] = float(_v2)
                             if _n2: _raw_ni[_dt2] = float(_n2)
 
@@ -3248,7 +3248,7 @@ def _render_live():
                     st.plotly_chart(fig_intra, width='stretch')
                 with col_g2:
                     # Indice Indice Halal officiel intraday (pts)
-                    idx_pts_all = [s.get("halal_official") for s in _intra_snaps]
+                    idx_pts_all = [s.get("halal_index") for s in _intra_snaps]
                     idx_valid   = [(t, v) for t, v in zip(times, idx_pts_all) if v is not None]
                     if idx_valid:
                         _t_idx, _v_idx = zip(*idx_valid)
@@ -3279,7 +3279,7 @@ def _render_live():
                 if True:
                     # Indice Halal intraday rebalisé à 100 — base commune = premier point où ETF ET Indice Halal ont une valeur
                     _par_intra = float((launch or {}).get("par_fcfa", 100000))
-                    idx_pts = [s.get("halal_official") for s in _intra_snaps]
+                    idx_pts = [s.get("halal_index") for s in _intra_snaps]
                     # Trouver le premier index où les deux séries ont une valeur
                     _common_i = next((i for i, (v_idx, s) in enumerate(zip(idx_pts, _intra_snaps))
                                       if v_idx is not None and (s.get("vl_live_fcfa") or s.get("vl_par_part", 0))), None)
