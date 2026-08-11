@@ -2888,6 +2888,82 @@
           "gap_contrib_pct": 0.0
         }
       }
+    },
+    {
+      "time": "14:05",
+      "nav_indice": 1764.5117,
+      "halal_index": 1813.0219,
+      "vl_par_part": 101939.0,
+      "vl_live_fcfa": 101939.0,
+      "perf_since_launch": 1.9386,
+      "change_1d_pct": 0.6054,
+      "change_day_pct": 1.4421,
+      "aum_mfcfa": 2548.5,
+      "n_prices": 6,
+      "prices_by_ticker": {
+        "SNTS": 31995.0,
+        "ORAC": 17160.0,
+        "CIEC": 5310.0,
+        "SOGC": 7990.0,
+        "TTLC": 3000.0,
+        "SPHC": 7755.0
+      },
+      "ticker_contributions": {
+        "SNTS": {
+          "w_pct": 38.5404,
+          "w_brvm30_pct": 38.5404,
+          "prix_prev": 32000.0,
+          "prix_now": 31995.0,
+          "ret_pct": -0.016,
+          "contrib_pct": -0.006,
+          "gap_contrib_pct": 0.0
+        },
+        "ORAC": {
+          "w_pct": 24.3939,
+          "w_brvm30_pct": 24.3939,
+          "prix_prev": 17000.0,
+          "prix_now": 17160.0,
+          "ret_pct": 0.941,
+          "contrib_pct": 0.2296,
+          "gap_contrib_pct": 0.0
+        },
+        "CIEC": {
+          "w_pct": 11.0534,
+          "w_brvm30_pct": 11.0534,
+          "prix_prev": 5150.0,
+          "prix_now": 5310.0,
+          "ret_pct": 3.107,
+          "contrib_pct": 0.3434,
+          "gap_contrib_pct": 0.0
+        },
+        "SOGC": {
+          "w_pct": 10.2542,
+          "w_brvm30_pct": 10.2542,
+          "prix_prev": 7875.0,
+          "prix_now": 7990.0,
+          "ret_pct": 1.46,
+          "contrib_pct": 0.1497,
+          "gap_contrib_pct": 0.0
+        },
+        "TTLC": {
+          "w_pct": 8.885,
+          "w_brvm30_pct": 8.885,
+          "prix_prev": 2995.0,
+          "prix_now": 3000.0,
+          "ret_pct": 0.167,
+          "contrib_pct": 0.0148,
+          "gap_contrib_pct": 0.0
+        },
+        "SPHC": {
+          "w_pct": 6.8731,
+          "w_brvm30_pct": 6.8731,
+          "prix_prev": 7900.0,
+          "prix_now": 7755.0,
+          "ret_pct": -1.835,
+          "contrib_pct": -0.1262,
+          "gap_contrib_pct": 0.0
+        }
+      }
     }
   ],
   "open_nav": 1739.4272
