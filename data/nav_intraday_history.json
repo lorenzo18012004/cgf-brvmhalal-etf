@@ -8468,5 +8468,17 @@
       "aum_mfcfa": 2999.8,
       "n_prices": 6
     }
+  ],
+  "2026-08-24": [
+    {
+      "time": "10:14",
+      "vl": 120571.0,
+      "nav_indice": 2087.0283,
+      "perf_since_launch": 20.5709,
+      "change_1d_pct": 4.328,
+      "change_day_pct": 0.0,
+      "aum_mfcfa": 3014.3,
+      "n_prices": 6
+    }
   ]
 }
