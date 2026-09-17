@@ -11826,5 +11826,17 @@
       "aum_mfcfa": 3052.4,
       "n_prices": 6
     }
+  ],
+  "2026-09-17": [
+    {
+      "time": "14:27",
+      "vl": 122051.0,
+      "nav_indice": 2112.6465,
+      "perf_since_launch": 22.0509,
+      "change_1d_pct": -0.8871,
+      "change_day_pct": 0.0,
+      "aum_mfcfa": 3051.3,
+      "n_prices": 6
+    }
   ]
 }
