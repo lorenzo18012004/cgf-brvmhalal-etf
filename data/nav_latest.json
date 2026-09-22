@@ -1,11 +1,11 @@
 {
-  "calc_date": "2026-09-21",
+  "calc_date": "2026-09-22",
   "launched": true,
-  "nav_indice": 2130.1782,
-  "vl_par_part_fcfa": 123064.0,
-  "aum_mfcfa": 3076.6,
-  "perf_since_launch": 23.0638,
-  "change_day_pct": 1.1133,
+  "nav_indice": 2130.1252,
+  "vl_par_part_fcfa": 123061.0,
+  "aum_mfcfa": 3076.5,
+  "perf_since_launch": 23.0607,
+  "change_day_pct": -0.0001,
   "n_parts": 25000,
   "par_fcfa": 100000,
   "source": "cloud_fallback_sika",
@@ -14,8 +14,8 @@
       "ticker": "SNTS",
       "poids_pct": 41.6201,
       "dernier_prix": 42000.0,
-      "last_price_date": "2026-09-21",
-      "pv_mfcfa": 1280.5,
+      "last_price_date": "2026-09-22",
+      "pv_mfcfa": 1280.4,
       "prix_stale": false,
       "w_brvm30": 0.383721,
       "adv_mfcfa": null,
@@ -25,7 +25,7 @@
       "ticker": "ORAC",
       "poids_pct": 24.7932,
       "dernier_prix": 21000.0,
-      "last_price_date": "2026-09-21",
+      "last_price_date": "2026-09-22",
       "pv_mfcfa": 762.8,
       "prix_stale": false,
       "w_brvm30": 0.235155,
@@ -36,7 +36,7 @@
       "ticker": "CIEC",
       "poids_pct": 11.8671,
       "dernier_prix": 6720.0,
-      "last_price_date": "2026-09-21",
+      "last_price_date": "2026-09-22",
       "pv_mfcfa": 365.1,
       "prix_stale": false,
       "w_brvm30": 0.117027,
@@ -47,7 +47,7 @@
       "ticker": "SOGC",
       "poids_pct": 8.4585,
       "dernier_prix": 7895.0,
-      "last_price_date": "2026-09-21",
+      "last_price_date": "2026-09-22",
       "pv_mfcfa": 260.2,
       "prix_stale": false,
       "w_brvm30": 0.10821,
@@ -58,7 +58,7 @@
       "ticker": "TTLC",
       "poids_pct": 7.7135,
       "dernier_prix": 3160.0,
-      "last_price_date": "2026-09-21",
+      "last_price_date": "2026-09-22",
       "pv_mfcfa": 237.3,
       "prix_stale": false,
       "w_brvm30": 0.08988,
@@ -69,7 +69,7 @@
       "ticker": "SPHC",
       "poids_pct": 5.5475,
       "dernier_prix": 7750.0,
-      "last_price_date": "2026-09-21",
+      "last_price_date": "2026-09-22",
       "pv_mfcfa": 170.7,
       "prix_stale": false,
       "w_brvm30": 0.066007,
@@ -2217,6 +2217,10 @@
     [
       "2026-09-21",
       123064.0
+    ],
+    [
+      "2026-09-22",
+      123061.0
     ]
   ],
   "nav_series": [
@@ -5921,6 +5925,6 @@
   "vol_ann_pct": 11.2,
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-07-29",
-  "nav_indice_reference": 2190.2579,
+  "nav_indice_reference": 2190.2557,
   "n_live_prices": 6
 }
