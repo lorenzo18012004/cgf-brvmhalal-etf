@@ -1,21 +1,21 @@
 {
-  "calc_date": "2026-10-12",
+  "calc_date": "2026-10-13",
   "launched": true,
-  "nav_indice": 2190.2887,
-  "vl_par_part_fcfa": 126536.0,
-  "aum_mfcfa": 3163.4,
-  "perf_since_launch": 26.5364,
-  "change_day_pct": -0.0922,
+  "nav_indice": 2197.038,
+  "vl_par_part_fcfa": 126926.0,
+  "aum_mfcfa": 3173.2,
+  "perf_since_launch": 26.9264,
+  "change_day_pct": 0.3105,
   "n_parts": 25000,
   "par_fcfa": 100000,
   "source": "cloud_fallback_sika",
   "basket": [
     {
       "ticker": "SNTS",
-      "poids_pct": 43.3537,
-      "dernier_prix": 45000.0,
-      "last_price_date": "2026-10-12",
-      "pv_mfcfa": 1371.5,
+      "poids_pct": 43.1234,
+      "dernier_prix": 44900.0,
+      "last_price_date": "2026-10-13",
+      "pv_mfcfa": 1368.4,
       "prix_stale": false,
       "w_brvm30": 0.383721,
       "adv_mfcfa": null,
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "ORAC",
-      "poids_pct": 25.1372,
+      "poids_pct": 25.0594,
       "dernier_prix": 21900.0,
-      "last_price_date": "2026-10-12",
+      "last_price_date": "2026-10-13",
       "pv_mfcfa": 795.2,
       "prix_stale": false,
       "w_brvm30": 0.235155,
@@ -34,10 +34,10 @@
     },
     {
       "ticker": "CIEC",
-      "poids_pct": 10.6446,
-      "dernier_prix": 6200.0,
-      "last_price_date": "2026-10-12",
-      "pv_mfcfa": 336.7,
+      "poids_pct": 10.6031,
+      "dernier_prix": 6195.0,
+      "last_price_date": "2026-10-13",
+      "pv_mfcfa": 336.5,
       "prix_stale": false,
       "w_brvm30": 0.117027,
       "adv_mfcfa": null,
@@ -45,10 +45,10 @@
     },
     {
       "ticker": "SOGC",
-      "poids_pct": 8.3171,
-      "dernier_prix": 7985.0,
-      "last_price_date": "2026-10-12",
-      "pv_mfcfa": 263.1,
+      "poids_pct": 8.1512,
+      "dernier_prix": 7850.0,
+      "last_price_date": "2026-10-13",
+      "pv_mfcfa": 258.7,
       "prix_stale": false,
       "w_brvm30": 0.10821,
       "adv_mfcfa": null,
@@ -56,10 +56,10 @@
     },
     {
       "ticker": "TTLC",
-      "poids_pct": 7.1194,
-      "dernier_prix": 3000.0,
-      "last_price_date": "2026-10-12",
-      "pv_mfcfa": 225.2,
+      "poids_pct": 7.5823,
+      "dernier_prix": 3205.0,
+      "last_price_date": "2026-10-13",
+      "pv_mfcfa": 240.6,
       "prix_stale": false,
       "w_brvm30": 0.08988,
       "adv_mfcfa": null,
@@ -67,10 +67,10 @@
     },
     {
       "ticker": "SPHC",
-      "poids_pct": 5.428,
-      "dernier_prix": 7800.0,
-      "last_price_date": "2026-10-12",
-      "pv_mfcfa": 171.7,
+      "poids_pct": 5.4806,
+      "dernier_prix": 7900.0,
+      "last_price_date": "2026-10-13",
+      "pv_mfcfa": 173.9,
       "prix_stale": false,
       "w_brvm30": 0.066007,
       "adv_mfcfa": null,
@@ -2277,6 +2277,10 @@
     [
       "2026-10-12",
       126536.0
+    ],
+    [
+      "2026-10-13",
+      126926.0
     ]
   ],
   "nav_series": [
@@ -5981,6 +5985,6 @@
   "vol_ann_pct": 11.2,
   "max_drawdown_pct": 10.42,
   "rebal_date": "2026-07-29",
-  "nav_indice_reference": 2252.8704,
+  "nav_indice_reference": 2259.8665,
   "n_live_prices": 6
 }
