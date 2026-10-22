@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T17:51:56.999500+00:00",
-  "dividend_receivable_fcfa": 18802736.0,
-  "distribution_payable_fcfa": 18802736.0,
+  "updated_at": "2026-10-22T19:38:59.595739+00:00",
+  "dividend_receivable_fcfa": 34489642.0,
+  "distribution_payable_fcfa": 34489642.0,
   "poche_distribution_fcfa": 0.0,
   "evenements": [
     {
@@ -24,6 +24,29 @@
           "credit": "Distribution_Payable",
           "montant_fcfa": 18802736.0,
           "note": "Provisionnement ex-date SOGC — 570.00 FCFA/action"
+        }
+      ]
+    },
+    {
+      "id": "TTLC_2026-10-22",
+      "ticker": "TTLC",
+      "nom": "TRACTAFRIC MOTORS CI",
+      "ex_date": "2026-10-22",
+      "montant_par_action_fcfa": 209.0,
+      "nb_titres_etf": 75057.0,
+      "montant_total_fcfa": 15686906.0,
+      "montant_par_part_fcfa": 627.4762,
+      "payment_date": null,
+      "distribution_date": "N/A",
+      "status": "accrued",
+      "journal": [
+        {
+          "date": "2026-10-22",
+          "type": "ACCRUAL",
+          "debit": "Dividend_Receivable",
+          "credit": "Distribution_Payable",
+          "montant_fcfa": 15686906.0,
+          "note": "Provisionnement ex-date TTLC — 209.00 FCFA/action"
         }
       ]
     }
